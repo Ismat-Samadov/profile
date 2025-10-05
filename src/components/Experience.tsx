@@ -113,6 +113,7 @@ interface ExperienceItemProps {
 
 const ExperienceItem = ({ title, company, period, location, jobType, workMode, responsibilities, index }: ExperienceItemProps) => {
   const getLogoPath = (companyName: string) => {
+    if (companyName.toLowerCase().includes('codeavors')) return '/logo/codeavors.jpg'
     if (companyName.toLowerCase().includes('kapital')) return '/logo/birbank.png'
     if (companyName.toLowerCase().includes('unibank')) return '/logo/unibank.jpeg'
     return null
