@@ -7,7 +7,7 @@ const experienceData = [
     title: 'Python Developer (Mid-level)',
     company: 'Codeavors',
     period: 'Oct 2025 - Present',
-    location: 'Remote',
+    location: 'London, England',
     jobType: 'Part Time',
     workMode: 'Remote',
     responsibilities: [
