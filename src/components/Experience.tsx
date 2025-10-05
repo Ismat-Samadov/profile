@@ -4,6 +4,21 @@ import { motion } from 'framer-motion'
 
 const experienceData = [
   {
+    title: 'Python Developer (Mid-level)',
+    company: 'Codeavors',
+    period: 'Oct 2025 - Present',
+    location: 'Remote',
+    jobType: 'Part Time',
+    workMode: 'Remote',
+    responsibilities: [
+      'Developing backend data services in Python for a tech-driven travel platform using asynchronous programming',
+      'Building and maintaining cloud backend stack with FastAPI, MongoDB, and Redis in containerized Google Cloud environment',
+      'Implementing data fetching, scraping, and analysis systems for multi-modal multi-destination travel bookings',
+      'Writing comprehensive tests using pytest and ensuring code quality through GitLab CI/CD pipelines',
+      'Collaborating on breaking down complex tasks and delivering functional code that passes automated testing'
+    ]
+  },
+  {
     title: 'SQL Developer & ML Engineer',
     company: 'Kapital Bank',
     period: 'Feb 2023 - Sep 2025',
