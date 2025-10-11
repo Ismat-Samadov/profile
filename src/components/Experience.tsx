@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const experienceData = [
   {
-    title: 'Python Developer (Mid-level)',
+    title: 'Backend Developer',
     company: 'Codeavors',
     period: 'Oct 2025 - Present',
     location: 'London, England',
@@ -19,48 +19,48 @@ const experienceData = [
     ]
   },
   {
-    title: 'SQL Developer & ML Engineer',
+    title: 'SQL Developer',
     company: 'Kapital Bank',
     period: 'Feb 2023 - Sep 2025',
     location: 'Baku, Azerbaijan',
     jobType: 'Full Time',
     workMode: 'Onsite',
     responsibilities: [
-      'Developing machine learning systems for fraud detection and risk assessment using SQL-based feature engineering and model deployment',
-      'Building automated ML pipelines for transaction monitoring and anomaly detection with real-time inference capabilities',
-      'Implementing data extraction and transformation processes for financial ML models and predictive analytics',
-      'Creating production-ready stored procedures and database optimization for high-throughput ML feature serving',
-      'Collaborating with data science teams to deploy enterprise ML solutions meeting Basel III and IFRS 9 compliance requirements'
+      'Writing complex SQL queries for improving fraud detection systems',
+      'Optimizing existing scripts and database performance',
+      'Developing stored procedures and database optimization solutions',
+      'Implementing data extraction and transformation processes for financial analytics',
+      'Collaborating with teams to maintain and enhance SQL-based systems'
     ]
   },
   {
-    title: 'Business Analytics & Data Science',
+    title: 'Business Analyst',
     company: 'Unibank',
     period: 'Dec 2021 - Feb 2023',
     location: 'Baku, Azerbaijan',
     jobType: 'Full Time',
     workMode: 'Onsite',
     responsibilities: [
-      'Developed predictive models and machine learning solutions for customer behavior analysis and business intelligence',
-      'Built automated reporting systems and ML-powered dashboards for tracking key performance indicators and customer metrics',
-      'Implemented advanced analytics using SQL and statistical methods to identify patterns in large-scale financial datasets',
-      'Created data preprocessing pipelines and feature engineering frameworks for business intelligence and predictive modeling',
-      'Designed A/B testing frameworks and statistical analysis methods to measure business impact of ML-driven initiatives'
+      'Extracted and analyzed data using SQL and other analytical tools to derive business insights',
+      'Manipulated and processed data with Python for comprehensive analysis and reporting',
+      'Analyzed consumer loan performance and cashback program effectiveness',
+      'Created reports and dashboards to track key business metrics and customer behavior',
+      'Collaborated with stakeholders to identify trends and extract business value from data'
     ]
   },
   {
-    title: 'Risk Analyst & Data Specialist',
+    title: 'Verificator',
     company: 'Unibank',
     period: 'Sep 2019 - Dec 2021',
     location: 'Baku, Azerbaijan',
     jobType: 'Full Time',
     workMode: 'Onsite',
     responsibilities: [
-      'Applied statistical methods and early ML techniques for credit risk assessment and loan portfolio optimization',
-      'Developed data analysis frameworks for evaluating applicant profiles using feature engineering and risk scoring models',
-      'Built automated reporting systems for loan performance tracking and risk metric calculation',
-      'Implemented data quality checks and validation procedures for ML model inputs and credit decision systems',
-      'Collaborated with fraud prevention teams on data analysis and pattern recognition for application verification'
+      'Reviewed consumer loan applications and made approval or rejection decisions',
+      'Analyzed customer data through comprehensive financial and loan history review',
+      'Evaluated applicant creditworthiness and risk profiles',
+      'Verified application information and supporting documentation',
+      'Collaborated with fraud prevention teams on application verification and pattern recognition'
     ]
   }
 ]
