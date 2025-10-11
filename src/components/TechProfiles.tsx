@@ -2,7 +2,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { FaGithub, FaKaggle } from 'react-icons/fa'
+import { FaGithub, FaKaggle, FaGitlab } from 'react-icons/fa'
 import { SiHackerrank, SiLeetcode, SiHuggingface, SiMedium } from 'react-icons/si'
 import { trackTechProfileClick } from '@/components/GoogleAnalytics'
 
@@ -12,6 +12,12 @@ const profilesData = [
     url: 'https://github.com/Ismat-Samadov',
     icon: <FaGithub />,
     username: 'Ismat-Samadov'
+  },
+  {
+    platform: 'GitLab',
+    url: 'https://gitlab.com/Ismat_Samadov',
+    icon: <FaGitlab />,
+    username: 'Ismat_Samadov'
   },
   {
     platform: 'HackerRank',
