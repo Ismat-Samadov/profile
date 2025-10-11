@@ -11,7 +11,7 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false)
 
   useEffect(() => {
-    const titles = ['Machine Learning Engineer', 'AI Systems Developer', 'Computer Vision Expert', 'MLOps Specialist']
+    const titles = ['Backend Developer', 'Full-Stack Engineer', 'Software Developer', 'API Architect']
     const typeSpeed = isDeleting ? 50 : 100
     const currentTitle = titles[titleIndex]
     
@@ -54,7 +54,7 @@ const Hero = () => {
             <span className="animate-pulse text-cyan-400">|</span>
           </div>
           <div className="flex flex-wrap justify-center gap-2 mb-6">
-            {['Production ML Systems', 'Computer Vision', 'NLP', 'MLOps'].map((skill, index) => (
+            {['Backend Development', 'API Design', 'Databases', 'Cloud Architecture'].map((skill, index) => (
               <motion.span
                 key={skill}
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -75,12 +75,12 @@ const Hero = () => {
             className="mb-8 bg-white/95 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl"
           >
             <p className="text-slate-700 mb-3 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Building scalable AI systems and production-ready ML pipelines with expertise in computer vision, 
-              natural language processing, and end-to-end model deployment across banking and healthcare sectors.
+              Building scalable backend systems and full-stack applications with expertise in API development,
+              database optimization, and cloud infrastructure across banking and technology sectors.
             </p>
             <p className="text-slate-700 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Currently developing enterprise ML solutions at Kapital Bank while creating open-source 
-              AI frameworks and contributing to low-resource language processing for Azerbaijani NLP.
+              Currently developing backend solutions at Codeavors while creating efficient data pipelines
+              and optimizing database performance for high-traffic applications.
             </p>
           </motion.div>
 
@@ -96,9 +96,9 @@ const Hero = () => {
               whileHover={{ scale: 1.05, boxShadow: "0 10px 25px rgba(0,0,0,0.2)" }}
               whileTap={{ scale: 0.95 }}
               className="w-full sm:w-auto inline-block bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-center border border-cyan-400/20"
-              aria-label="View my ML projects and systems"
+              aria-label="View my development projects"
             >
-              View ML Projects
+              View Projects
             </motion.a>
 
             <DownloadButton

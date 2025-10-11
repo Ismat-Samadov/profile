@@ -4,28 +4,28 @@ import { motion } from 'framer-motion'
 import { FaCode, FaDatabase, FaChartBar, FaTools, FaBrain, FaRobot } from 'react-icons/fa'
 
 const skillsData = {
-  mlEngineering: {
-    skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'XGBoost', 'Hugging Face', 'Model Optimization'],
+  backendDevelopment: {
+    skills: ['Python', 'FastAPI', 'Django', 'Node.js', 'REST APIs', 'GraphQL'],
     color: 'from-purple-500 to-indigo-500'
   },
-  computerVision: {
-    skills: ['YOLOv8', 'OpenCV', 'Medical Imaging', 'Object Detection', 'Image Classification', 'DICOM Processing'],
+  databases: {
+    skills: ['PostgreSQL', 'MongoDB', 'Redis', 'SQL Optimization', 'Database Design', 'Query Performance'],
     color: 'from-blue-500 to-cyan-500'
   },
-  nlpAI: {
-    skills: ['Transformers', 'Named Entity Recognition', 'Custom Tokenization', 'Language Models', 'Text Classification', 'Multilingual NLP'],
+  cloudInfrastructure: {
+    skills: ['Docker', 'Kubernetes', 'Google Cloud', 'AWS', 'CI/CD', 'Microservices'],
     color: 'from-green-500 to-emerald-500'
   },
-  mlOpsInfrastructure: {
-    skills: ['MLflow', 'Docker', 'Kubernetes', 'FastAPI', 'Model Serving', 'Pipeline Automation'],
+  dataEngineering: {
+    skills: ['ETL Pipelines', 'Data Processing', 'Apache Airflow', 'Data Validation', 'Real-time Processing', 'Data Modeling'],
     color: 'from-orange-500 to-red-500'
   },
-  dataEngineering: {
-    skills: ['SQL Optimization', 'PostgreSQL', 'ETL Pipelines', 'Feature Engineering', 'Data Validation', 'Real-time Processing'],
+  tools: {
+    skills: ['Git/GitLab', 'Linux', 'Nginx', 'Pytest', 'Postman', 'Web Scraping'],
     color: 'from-teal-500 to-blue-500'
   },
-  financialML: {
-    skills: ['Risk Modeling', 'Fraud Detection', 'Credit Scoring', 'Time Series Analysis', 'Basel III Compliance', 'Regulatory ML'],
+  frontend: {
+    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Responsive Design', 'JavaScript'],
     color: 'from-pink-500 to-rose-500'
   }
 }
@@ -41,54 +41,54 @@ const Skills = () => {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-2xl sm:text-3xl font-bold text-primary text-center mb-8 md:mb-12">ML Engineering Expertise</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-primary text-center mb-8 md:mb-12">Technical Skills</h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-            <SkillCategory 
-              title="ML Frameworks"
-              icon={<FaBrain />}
-              skills={skillsData.mlEngineering.skills}
-              color={skillsData.mlEngineering.color}
+            <SkillCategory
+              title="Backend Development"
+              icon={<FaCode />}
+              skills={skillsData.backendDevelopment.skills}
+              color={skillsData.backendDevelopment.color}
               delay={0}
             />
-            
-            <SkillCategory 
-              title="Computer Vision"
-              icon={<FaChartBar />}
-              skills={skillsData.computerVision.skills}
-              color={skillsData.computerVision.color}
+
+            <SkillCategory
+              title="Databases"
+              icon={<FaDatabase />}
+              skills={skillsData.databases.skills}
+              color={skillsData.databases.color}
               delay={0.1}
             />
-            
-            <SkillCategory 
-              title="NLP & AI"
-              icon={<FaRobot />}
-              skills={skillsData.nlpAI.skills}
-              color={skillsData.nlpAI.color}
+
+            <SkillCategory
+              title="Cloud & Infrastructure"
+              icon={<FaTools />}
+              skills={skillsData.cloudInfrastructure.skills}
+              color={skillsData.cloudInfrastructure.color}
               delay={0.2}
             />
-            
-            <SkillCategory 
-              title="MLOps & Infrastructure"
-              icon={<FaTools />}
-              skills={skillsData.mlOpsInfrastructure.skills}
-              color={skillsData.mlOpsInfrastructure.color}
-              delay={0.3}
-            />
-            
-            <SkillCategory 
+
+            <SkillCategory
               title="Data Engineering"
-              icon={<FaDatabase />}
+              icon={<FaChartBar />}
               skills={skillsData.dataEngineering.skills}
               color={skillsData.dataEngineering.color}
+              delay={0.3}
+            />
+
+            <SkillCategory
+              title="DevOps & Tools"
+              icon={<FaBrain />}
+              skills={skillsData.tools.skills}
+              color={skillsData.tools.color}
               delay={0.4}
             />
-            
-            <SkillCategory 
-              title="Financial ML"
-              icon={<FaCode />}
-              skills={skillsData.financialML.skills}
-              color={skillsData.financialML.color}
+
+            <SkillCategory
+              title="Frontend Development"
+              icon={<FaRobot />}
+              skills={skillsData.frontend.skills}
+              color={skillsData.frontend.color}
               delay={0.5}
             />
           </div>
@@ -101,28 +101,28 @@ const Skills = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6"
           >
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-blue-500 to-indigo-600 p-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <div className="text-3xl font-bold text-white mb-2">93.3%</div>
-              <div className="text-sm text-blue-100">mAP50 Accuracy in Computer Vision Models</div>
+              <div className="text-3xl font-bold text-white mb-2">5+</div>
+              <div className="text-sm text-blue-100">Years in Backend & Data Development</div>
             </motion.div>
-            
-            <motion.div 
+
+            <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-green-500 to-emerald-600 p-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <div className="text-3xl font-bold text-white mb-2">1M+</div>
-              <div className="text-sm text-green-100">Daily Predictions in Production Systems</div>
+              <div className="text-3xl font-bold text-white mb-2">100k+</div>
+              <div className="text-sm text-green-100">Daily API Requests Handled</div>
             </motion.div>
-            
-            <motion.div 
+
+            <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-purple-500 to-violet-600 p-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <div className="text-3xl font-bold text-white mb-2">&lt;100ms</div>
-              <div className="text-sm text-purple-100">Real-time Model Inference Latency</div>
+              <div className="text-3xl font-bold text-white mb-2">&lt;50ms</div>
+              <div className="text-sm text-purple-100">Average API Response Time</div>
             </motion.div>
           </motion.div>
         </motion.div>

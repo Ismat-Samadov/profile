@@ -118,7 +118,7 @@ const Contact = () => {
       
       // Clear form and show success
       setFormData({ name: '', email: '', message: '' })
-      setSuccessMessage("Your message has been sent successfully! I'll get back to you soon to discuss ML opportunities.")
+      setSuccessMessage("Your message has been sent successfully! I'll get back to you soon.")
       setIsSubmitted(true)
       setTimeout(() => {
         setIsSubmitted(false)
@@ -134,7 +134,7 @@ const Contact = () => {
       // Fallback message if the API fails
       setSuccessMessage(
         "While there was an issue with our contact system, " +
-        "you can reach me directly at ismetsemedov@gmail.com to discuss ML collaboration opportunities."
+        "you can reach me directly at ismetsemedov@gmail.com."
       )
       setIsSubmitted(true)
       
@@ -154,28 +154,28 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto"
         >
-          <h2 className="text-2xl sm:text-3xl font-bold text-primary text-center mb-8 md:mb-12">Let&apos;s Build Something Amazing</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-primary text-center mb-8 md:mb-12">Let&apos;s Work Together</h2>
           
           <div className="max-w-md mx-auto">
             <div>
-              <h3 className="text-xl font-bold mb-4 md:mb-6">Interested in ML Collaboration?</h3>
-              
+              <h3 className="text-xl font-bold mb-4 md:mb-6">Looking for a Developer?</h3>
+
               <p className="text-gray-700 text-sm sm:text-base mb-6">
-                I&apos;m passionate about leveraging machine learning to solve complex real-world problems. 
-                Whether you&apos;re looking to implement production ML systems, develop AI solutions, or discuss 
-                opportunities in computer vision, NLP, or MLOps, I&apos;d love to connect.
+                I&apos;m passionate about building scalable backend systems and full-stack applications.
+                Whether you&apos;re looking to develop robust APIs, optimize database performance, or create
+                end-to-end solutions, I&apos;d love to discuss how I can help.
               </p>
 
               {/* Expertise highlights */}
               <div className="mb-6 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg">
                 <h4 className="font-semibold text-sm mb-2">What I Can Help With:</h4>
                 <ul className="text-xs space-y-1 text-gray-700">
-                  <li>• Production ML system design and deployment</li>
-                  <li>• Computer vision and medical imaging AI</li>
-                  <li>• NLP and language model development</li>
-                  <li>• Financial ML and regulatory compliance</li>
-                  <li>• MLOps infrastructure and automation</li>
-                  <li>• Custom AI solutions for your domain</li>
+                  <li>• Backend API development with Python, FastAPI, Django</li>
+                  <li>• Database design and SQL optimization</li>
+                  <li>• Full-stack applications with React and Next.js</li>
+                  <li>• Cloud infrastructure and microservices</li>
+                  <li>• Data pipelines and ETL processes</li>
+                  <li>• Performance optimization and scalability</li>
                 </ul>
               </div>
               
@@ -239,7 +239,7 @@ const Contact = () => {
                     className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent ${
                       errors.message ? 'border-red-500' : 'border-gray-300'
                     }`}
-                    placeholder="Tell me about your ML project, business challenge, or collaboration opportunity. What problem are you looking to solve with AI?"
+                    placeholder="Tell me about your project, technical challenge, or opportunity. What are you looking to build?"
                   />
                   {errors.message && (
                     <p className="text-red-500 text-xs sm:text-sm mt-1 flex items-center">

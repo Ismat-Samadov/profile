@@ -32,7 +32,7 @@ const featuredCertificationData = [
     date: 'May 2022',
     pdfUrl: '/certificates/others/OCA.pdf',
     verificationUrl: 'https://catalog-education.oracle.com/apex/f?p=1010:2:100683567337903::::P2_AUTHCODE,P2_AUTH_KEY,P2_ARG_INVALID_CNT:Ph156118hV47D,cOpJB156046UbeO4312onHs,0',
-    description: 'Advanced SQL optimization and database design for ML feature engineering and data pipelines.'
+    description: 'Advanced SQL optimization and database design for backend systems and data pipelines.'
   }
 ]
 
@@ -122,25 +122,25 @@ const additionalCertifications = {
 
 const mlLearningData = [
   {
-    title: 'Machine Learning Engineering',
-    platform: 'Self-Directed & Open Source',
-    focus: 'Production ML Systems',
+    title: 'Backend Development',
+    platform: 'Professional Experience & Open Source',
+    focus: 'Scalable Systems & APIs',
     achievements: [
-      'Built 15+ production-ready ML systems',
-      'Contributed to Azerbaijani NLP research',
-      'Developed computer vision models with 93%+ accuracy',
-      'Implemented enterprise-grade MLOps pipelines'
+      'Built 10+ production backend systems handling 100k+ daily requests',
+      'Developed RESTful APIs with FastAPI, Django, and Node.js',
+      'Optimized database queries improving performance by 80%+',
+      'Implemented microservices architecture with Docker & Kubernetes'
     ]
   },
   {
-    title: 'Deep Learning Specialization',
-    platform: 'Research & Implementation',
-    focus: 'Neural Networks & AI',
+    title: 'Full-Stack Development',
+    platform: 'Professional Projects',
+    focus: 'End-to-End Solutions',
     achievements: [
-      'Custom transformer architecture for Azerbaijani language',
-      'Medical imaging AI with DICOM processing',
-      'Multi-agent reinforcement learning systems',
-      'Real-time inference optimization'
+      'Created full-stack applications with React, Next.js, and TypeScript',
+      'Developed real-time data processing pipelines',
+      'Built cloud-native applications on Google Cloud and AWS',
+      'Implemented CI/CD pipelines with GitLab and automated testing'
     ]
   }
 ]
@@ -156,7 +156,7 @@ const Education = () => {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-2xl sm:text-3xl font-bold text-primary text-center mb-8 md:mb-12">Education & ML Expertise</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-primary text-center mb-8 md:mb-12">Education & Certifications</h2>
           
           <div className="grid gap-8 grid-cols-1 lg:grid-cols-2">
             {/* Formal Education */}
@@ -214,7 +214,7 @@ const Education = () => {
               <svg className="w-5 h-5 mr-2 text-primary" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2L13.5 8.5L20 7L14.5 12L20 17L13.5 15.5L12 22L10.5 15.5L4 17L9.5 12L4 7L10.5 8.5L12 2Z"/>
               </svg>
-              Machine Learning Research & Development
+              Professional Development & Projects
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
               {mlLearningData.map((learning, index) => (
@@ -238,19 +238,19 @@ const Education = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-12 bg-gradient-to-r from-blue-50 to-indigo-50 p-6 md:p-8 rounded-lg"
           >
-            <h3 className="text-xl font-bold text-primary mb-4 text-center">Core ML Engineering Competencies</h3>
+            <h3 className="text-xl font-bold text-primary mb-4 text-center">Core Development Competencies</h3>
             <div className="grid md:grid-cols-3 gap-4 text-center">
               <div>
-                <div className="text-2xl font-bold text-primary mb-2">15+</div>
-                <div className="text-sm text-gray-700">Production ML Projects</div>
+                <div className="text-2xl font-bold text-primary mb-2">10+</div>
+                <div className="text-sm text-gray-700">Production Backend Systems</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-primary mb-2">5+</div>
-                <div className="text-sm text-gray-700">Years in Data & Analytics</div>
+                <div className="text-sm text-gray-700">Years in Software Development</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-primary mb-2">3</div>
-                <div className="text-sm text-gray-700">ML Domains (CV, NLP, Finance)</div>
+                <div className="text-sm text-gray-700">Tech Stacks (Python, Node.js, React)</div>
               </div>
             </div>
           </motion.div>
