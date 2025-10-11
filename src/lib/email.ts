@@ -2,33 +2,33 @@
 import { Resend } from 'resend';
 
 interface EmailOptions {
+  to: string;
   subject: string;
   text: string;
   html?: string;
 }
 
-export async function sendEmail({ subject, text, html }: EmailOptions) {
+export async function sendEmail({ to, subject, text, html }: EmailOptions) {
   try {
     const resend = new Resend(process.env.RESEND_API_KEY || '');
-    
+
     // Handle the case where environment variables might be undefined
     const fromEmail = process.env.NOTIFICATION_FROM_EMAIL || 'contact@ismat.pro';
-    const toEmail = process.env.NOTIFICATION_TO_EMAIL || 'ismetsemedov@gmail.com';
-    
+
     console.log('Attempting to send email:', {
-      from: `Contact Form <${fromEmail}>`,
-      to: toEmail,
+      from: `Ismat Samadov <${fromEmail}>`,
+      to,
       subject
     });
-    
+
     const result = await resend.emails.send({
-      from: `Contact Form <${fromEmail}>`,
-      to: toEmail,
+      from: `Ismat Samadov <${fromEmail}>`,
+      to,
       subject,
       text,
       html: html || text.replace(/\n/g, '<br>'),
     });
-    
+
     console.log('Email send result:', result);
     return result;
   } catch (error) {
