@@ -64,7 +64,7 @@ ${message}
 
 Best regards,
 Ismat Samadov
-Machine Learning Engineer
+Backend Developer & Full-Stack Engineer
 https://ismat.pro
 ismetsemedov@gmail.com`,
       html: `
@@ -82,7 +82,7 @@ ismetsemedov@gmail.com`,
 
           <p>Best regards,</p>
           <p><strong>Ismat Samadov</strong><br>
-          Machine Learning Engineer<br>
+          Backend Developer & Full-Stack Engineer<br>
           <a href="https://ismat.pro" style="color: #2563eb;">https://ismat.pro</a><br>
           <a href="mailto:ismetsemedov@gmail.com" style="color: #2563eb;">ismetsemedov@gmail.com</a></p>
         </div>

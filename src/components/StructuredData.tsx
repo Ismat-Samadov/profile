@@ -4,10 +4,10 @@ export function PersonStructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Ismat Samadov',
-    description: 'Machine Learning Engineer & AI Systems Developer specializing in production ML systems, computer vision, NLP, and MLOps infrastructure',
+    description: 'Backend Developer & Full-Stack Engineer specializing in scalable APIs, database optimization, and cloud infrastructure',
     url: 'https://ismat.pro',
     image: 'https://ismat.pro/images/ismat-samadov.jpg',
-    jobTitle: 'Machine Learning Engineer',
+    jobTitle: 'Backend Developer',
     worksFor: {
       '@type': 'Organization',
       name: 'Kapital Bank',
@@ -51,7 +51,7 @@ export function PersonStructuredData() {
       'https://www.linkedin.com/in/ismat-samadov/'
     ],
     knowsAbout: [
-      'Machine Learning Engineering',
+      'Backend Development',
       'Deep Learning Systems',
       'Computer Vision',
       'Natural Language Processing',
@@ -200,10 +200,10 @@ export function WebsiteStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Ismat Samadov | Machine Learning Engineer & AI Systems Developer',
+    name: 'Ismat Samadov | Backend Developer & Full-Stack Engineer',
     alternateName: 'Ismat Samadov ML Portfolio',
     url: 'https://ismat.pro',
-    description: 'Machine Learning Engineer specializing in production AI systems, computer vision, NLP, and MLOps. Building scalable ML solutions for healthcare, finance, and enterprise applications.',
+    description: 'Backend Developer specializing in scalable APIs, database optimization, and full-stack applications. Building robust backend systems for banking, technology, and enterprise sectors.',
     inLanguage: ['en-US', 'az-AZ', 'ru-RU'],
     potentialAction: {
       '@type': 'SearchAction',
@@ -226,7 +226,7 @@ export function WebsiteStructuredData() {
     about: [
       {
         '@type': 'Thing',
-        name: 'Machine Learning Engineering',
+        name: 'Backend Development',
         description: 'Production ML systems and AI infrastructure'
       },
       {
@@ -262,8 +262,8 @@ export function OrganizationStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: 'Ismat Samadov ML Engineering Services',
-    description: 'Machine Learning Engineering and AI Systems Development Services',
+    name: 'Ismat Samadov Backend Development Services',
+    description: 'Backend Development and Full-Stack Engineering Services',
     url: 'https://ismat.pro',
     founder: {
       '@type': 'Person',
@@ -275,8 +275,8 @@ export function OrganizationStructuredData() {
       name: 'Global'
     },
     serviceType: [
-      'Machine Learning Engineering',
-      'AI Systems Development',
+      'Backend Development',
+      'Full-Stack Engineering',
       'Computer Vision Solutions',
       'NLP Engineering',
       'MLOps Infrastructure',

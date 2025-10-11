@@ -30,7 +30,7 @@ const Navbar = () => {
         }`}>
           Ismat Samadov <span className={`hidden sm:inline font-normal text-sm transition-colors duration-300 ${
             isScrolled ? 'text-gray-700' : 'text-white/80'
-          }`}>ML Engineer</span>
+          }`}>Backend Developer</span>
         </Link>
         
         {/* Mobile menu button - improved z-index */}
@@ -54,7 +54,7 @@ const Navbar = () => {
         <nav className="hidden md:flex space-x-6">
           <NavLink href="#home">Home</NavLink>
           <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#skills">ML Skills</NavLink>
+          <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#tech-profiles">Profiles</NavLink>
           <NavLink href="#contact">Contact</NavLink>
@@ -67,10 +67,10 @@ const Navbar = () => {
           <div className="flex flex-col space-y-6">
             <MobileNavLink href="#home" onClick={() => setIsMenuOpen(false)}>Home</MobileNavLink>
             <MobileNavLink href="#experience" onClick={() => setIsMenuOpen(false)}>Experience</MobileNavLink>
-            <MobileNavLink href="#skills" onClick={() => setIsMenuOpen(false)}>ML Skills</MobileNavLink>
+            <MobileNavLink href="#skills" onClick={() => setIsMenuOpen(false)}>Skills</MobileNavLink>
             <MobileNavLink href="#education" onClick={() => setIsMenuOpen(false)}>Education</MobileNavLink>
             <MobileNavLink href="#tech-profiles" onClick={() => setIsMenuOpen(false)}>Tech Profiles</MobileNavLink>
-            <MobileNavLink href="#projects" onClick={() => setIsMenuOpen(false)}>ML Projects</MobileNavLink>
+            <MobileNavLink href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</MobileNavLink>
             <MobileNavLink href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</MobileNavLink>
           </div>
         </nav>

@@ -4,10 +4,10 @@ export function PersonStructuredData() {
       '@context': 'https://schema.org',
       '@type': 'Person',
       name: 'Ismat Samadov',
-      description: 'Machine Learning Engineer & Analytics Professional specializing in deep learning, NLP, computer vision, and predictive analytics',
+      description: 'Backend Developer & Analytics Professional specializing in deep learning, NLP, computer vision, and predictive analytics',
       url: 'https://ismat.pro',
       image: 'https://ismat.pro/images/ismat-samadov.jpg', // Add a professional photo
-      jobTitle: 'Machine Learning Engineer',
+      jobTitle: 'Backend Developer',
       worksFor: {
         '@type': 'Organization',
         name: 'Kapital Bank',

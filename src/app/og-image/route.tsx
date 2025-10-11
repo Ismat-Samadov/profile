@@ -32,10 +32,10 @@ export async function GET() {
             Ismat Samadov
           </div>
           <div style={{ fontSize: 32, opacity: 0.9, marginBottom: 20 }}>
-            Machine Learning Engineer
+            Backend Developer
           </div>
           <div style={{ fontSize: 24, opacity: 0.8, lineHeight: 1.4 }}>
-            AI Systems Developer • Computer Vision • NLP • MLOps
+            Full-Stack Engineer • APIs • Databases • Cloud Infrastructure
           </div>
         </div>
         <div 

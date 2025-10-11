@@ -8,7 +8,7 @@ A modern, responsive professional portfolio website showcasing expertise in mach
 
 - **Responsive Design**: Mobile-first approach optimized for all devices
 - **Modern UI/UX**: Clean design with smooth animations using Framer Motion
-- **SEO Optimized**: Comprehensive structured data and metadata for ML engineering keywords
+- **SEO Optimized**: Comprehensive structured data and metadata for SWE engineering keywords
 - **Performance Focused**: Optimized for Core Web Vitals and fast loading
 - **Interactive Portfolio**: Dynamic showcase of ML projects and AI systems
 - **Contact Form**: Professional inquiry system with database integration
@@ -30,7 +30,7 @@ A modern, responsive professional portfolio website showcasing expertise in mach
 
 I am a **Machine Learning Engineer** specializing in production AI systems, computer vision, NLP, and MLOps infrastructure. My expertise spans:
 
-### 🧠 Core ML Engineering
+### 🧠 Core SWE engineering
 - **Production ML Systems**: Building scalable AI systems serving 1M+ daily predictions
 - **Computer Vision**: Medical imaging AI, object detection (YOLOv8), agricultural monitoring
 - **Natural Language Processing**: Custom NER systems, language models, Azerbaijani NLP
@@ -39,7 +39,7 @@ I am a **Machine Learning Engineer** specializing in production AI systems, comp
 
 ### 💼 Professional Experience
 
-**SQL Developer & ML Engineer** at Kapital Bank (2023-Present)
+**SQL Developer & SWE engineer** at Kapital Bank (2023-Present)
 - Developing enterprise ML systems for fraud detection and risk assessment
 - Building automated ML pipelines with real-time inference capabilities
 - Implementing regulatory compliance models meeting Basel III standards
@@ -136,10 +136,10 @@ I am a **Machine Learning Engineer** specializing in production AI systems, comp
 
 I'm passionate about solving complex problems with machine learning and building production AI systems that drive real business value. Open to:
 
-- **ML Engineering Roles**: Full-time opportunities in AI/ML engineering
+- **SWE engineering Roles**: Full-time opportunities in AI/SWE engineering
 - **Consulting Projects**: Custom AI solution development
 - **Research Collaboration**: Academic and industry partnerships
-- **Technical Speaking**: Conferences and workshops on ML engineering
+- **Technical Speaking**: Conferences and workshops on SWE engineering
 
 **Contact**: [ismetsemedov@gmail.com](mailto:ismetsemedov@gmail.com)
 
