@@ -1,8 +1,8 @@
 // src/middleware.ts
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 
 // Simplified middleware - no custom tracking, GA4 handles analytics
-export async function middleware(request: NextRequest) {
+export async function middleware() {
   const response = NextResponse.next();
   return response;
 }
