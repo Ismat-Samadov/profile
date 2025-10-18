@@ -50,6 +50,8 @@ export function generatePageMetadata({
   const defaultKeywords = [
     'Ismat Samadov',
     'Backend Developer',
+    'Data Analyst',
+    'Business Intelligence',
     'Full-Stack Engineer',
     'Software Developer',
     'API Developer',
@@ -81,6 +83,11 @@ export function generatePageMetadata({
     'Backend Architecture',
     'API Design',
     'Performance Optimization',
+    'Data Analytics',
+    'Business Analysis',
+    'KPI Monitoring',
+    'Analytical Reports',
+    'Financial Analytics',
     'Azerbaijan Tech',
     'Baku Developer',
     'Software Engineering'
@@ -112,7 +119,7 @@ export function generatePageMetadata({
     title,
     description,
     url,
-    siteName: 'Ismat Samadov | Backend Developer & Full-Stack Engineer',
+    siteName: 'Ismat Samadov | Backend Developer & Data Analyst',
     locale: 'en_US',
     type: contentType === 'BlogPosting' || contentType === 'TechArticle' ? 'article' : 'website',
     images: [{
@@ -194,19 +201,19 @@ export function generatePageMetadata({
 export const defaultMetadata: Metadata = {
   title: {
     template: '%s | Ismat Samadov',
-    default: 'Ismat Samadov | Backend Developer & Full-Stack Engineer',
+    default: 'Ismat Samadov | Backend Developer & Data Analyst',
   },
-  description: 'Backend Developer specializing in scalable APIs, database optimization, and full-stack applications. Building robust backend systems and data pipelines for banking, technology, and enterprise sectors. Expert in Python, FastAPI, PostgreSQL, and cloud infrastructure.',
+  description: 'Versatile professional combining backend development and data analytics expertise. Specializing in scalable APIs, business intelligence, SQL optimization, and data-driven decision making. Building robust systems and analytical solutions for banking and technology sectors. Expert in Python, FastAPI, SQL, PostgreSQL, and data analysis.',
   metadataBase: new URL('https://ismat.pro'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'Ismat Samadov | Backend Developer & Full-Stack Engineer',
+    siteName: 'Ismat Samadov | Backend Developer & Data Analyst',
     images: [{
       url: '/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Ismat Samadov - Backend Developer & Full-Stack Engineer',
+      alt: 'Ismat Samadov - Backend Developer & Data Analyst',
     }],
   },
   twitter: {

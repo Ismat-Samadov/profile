@@ -46,12 +46,12 @@ export async function GET() {
   
   const atomXml = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Ismat Samadov - Backend Developer Blog</title>
+  <title>Ismat Samadov - Backend Developer & Data Analyst Blog</title>
   <link href="${baseUrl}/atom.xml" rel="self"/>
   <link href="${baseUrl}"/>
   <updated>${new Date().toISOString()}</updated>
   <id>${baseUrl}/</id>
-  <subtitle>Backend Development insights, SQL optimization techniques, and AI development tutorials</subtitle>
+  <subtitle>Backend Development, Data Analytics, Business Intelligence, SQL optimization techniques, and AI development tutorials</subtitle>
   <generator>Next.js Atom Generator</generator>
   <rights>Copyright ${new Date().getFullYear()} Ismat Samadov</rights>
   <author>

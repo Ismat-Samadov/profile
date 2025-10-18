@@ -4,14 +4,14 @@ export function PersonStructuredData() {
       '@context': 'https://schema.org',
       '@type': 'Person',
       name: 'Ismat Samadov',
-      description: 'Backend Developer & Analytics Professional specializing in deep learning, NLP, computer vision, and predictive analytics',
+      description: 'Backend Developer & Data Analyst specializing in business intelligence, SQL optimization, scalable APIs, deep learning, NLP, and predictive analytics',
       url: 'https://ismat.pro',
       image: 'https://ismat.pro/images/ismat-samadov.jpg', // Add a professional photo
-      jobTitle: 'Backend Developer',
+      jobTitle: 'Leading Analyst',
       worksFor: {
         '@type': 'Organization',
-        name: 'Kapital Bank',
-        url: 'https://kapitalbank.az'
+        name: 'Bank of Baku',
+        url: 'https://www.bankofbaku.com'
       },
       alumniOf: [
         {
@@ -44,12 +44,17 @@ export function PersonStructuredData() {
         'https://www.linkedin.com/in/ismat-samadov/' // Add LinkedIn
       ],
       knowsAbout: [
+        'Backend Development',
+        'Data Analytics',
+        'Business Intelligence',
+        'SQL Development',
+        'Database Optimization',
+        'KPI Monitoring',
+        'Analytical Reporting',
         'Machine Learning',
         'Deep Learning',
         'Natural Language Processing',
-        'Computer Vision',
-        'SQL Development',
-        'Database Optimization'
+        'Computer Vision'
       ],
       address: {
         '@type': 'PostalAddress',

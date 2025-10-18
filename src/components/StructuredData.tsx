@@ -4,14 +4,14 @@ export function PersonStructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Ismat Samadov',
-    description: 'Backend Developer & Full-Stack Engineer specializing in scalable APIs, database optimization, and cloud infrastructure',
+    description: 'Backend Developer & Data Analyst specializing in scalable APIs, business intelligence, SQL optimization, and data-driven analytics',
     url: 'https://ismat.pro',
     image: 'https://ismat.pro/images/ismat-samadov.jpg',
-    jobTitle: 'Backend Developer',
+    jobTitle: 'Leading Analyst',
     worksFor: {
       '@type': 'Organization',
-      name: 'Kapital Bank',
-      url: 'https://kapitalbank.az'
+      name: 'Bank of Baku',
+      url: 'https://www.bankofbaku.com'
     },
     alumniOf: [
       {
@@ -52,6 +52,12 @@ export function PersonStructuredData() {
     ],
     knowsAbout: [
       'Backend Development',
+      'Data Analytics',
+      'Business Intelligence',
+      'SQL Optimization',
+      'KPI Monitoring',
+      'Financial Analytics',
+      'Analytical Reports',
       'Deep Learning Systems',
       'Computer Vision',
       'Natural Language Processing',
@@ -68,7 +74,6 @@ export function PersonStructuredData() {
       'Real-time Inference',
       'Feature Engineering',
       'Data Pipelines',
-      'SQL Optimization',
       'FastAPI',
       'Docker',
       'Kubernetes',
@@ -200,10 +205,10 @@ export function WebsiteStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Ismat Samadov | Backend Developer & Full-Stack Engineer',
-    alternateName: 'Ismat Samadov ML Portfolio',
+    name: 'Ismat Samadov | Backend Developer & Data Analyst',
+    alternateName: 'Ismat Samadov Portfolio',
     url: 'https://ismat.pro',
-    description: 'Backend Developer specializing in scalable APIs, database optimization, and full-stack applications. Building robust backend systems for banking, technology, and enterprise sectors.',
+    description: 'Backend Developer & Data Analyst specializing in scalable APIs, business intelligence, SQL optimization, and data-driven analytics. Building robust systems and analytical solutions for banking and technology sectors.',
     inLanguage: ['en-US', 'az-AZ', 'ru-RU'],
     potentialAction: {
       '@type': 'SearchAction',
@@ -227,22 +232,22 @@ export function WebsiteStructuredData() {
       {
         '@type': 'Thing',
         name: 'Backend Development',
+        description: 'Scalable API development and system architecture'
+      },
+      {
+        '@type': 'Thing',
+        name: 'Data Analytics',
+        description: 'Business intelligence, KPI monitoring, and analytical reporting'
+      },
+      {
+        '@type': 'Thing',
+        name: 'SQL Development',
+        description: 'Database optimization and complex query development'
+      },
+      {
+        '@type': 'Thing',
+        name: 'Machine Learning',
         description: 'Production ML systems and AI infrastructure'
-      },
-      {
-        '@type': 'Thing',
-        name: 'Computer Vision',
-        description: 'Medical imaging AI and object detection systems'
-      },
-      {
-        '@type': 'Thing',
-        name: 'Natural Language Processing',
-        description: 'NLP systems and low-resource language processing'
-      },
-      {
-        '@type': 'Thing',
-        name: 'Financial ML',
-        description: 'Risk modeling and fraud detection systems'
       }
     ]
   };
@@ -262,8 +267,8 @@ export function OrganizationStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: 'Ismat Samadov Backend Development Services',
-    description: 'Backend Development and Full-Stack Engineering Services',
+    name: 'Ismat Samadov Development & Analytics Services',
+    description: 'Backend Development, Data Analytics, and Business Intelligence Services',
     url: 'https://ismat.pro',
     founder: {
       '@type': 'Person',
@@ -276,13 +281,18 @@ export function OrganizationStructuredData() {
     },
     serviceType: [
       'Backend Development',
+      'Data Analytics',
+      'Business Intelligence',
+      'SQL Development',
       'Full-Stack Engineering',
+      'API Development',
+      'Database Optimization',
+      'KPI Monitoring',
+      'Analytical Reporting',
       'Computer Vision Solutions',
       'NLP Engineering',
       'MLOps Infrastructure',
-      'Production ML Deployment',
-      'Medical AI Development',
-      'Financial ML Systems'
+      'Production ML Deployment'
     ],
     priceRange: 'Consultation Available',
     address: {
