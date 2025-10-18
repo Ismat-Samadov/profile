@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const experienceData = [
   {
-    title: 'Head Expert of Analytical Analysis Department',
+    title: 'Leading Analyst',
     company: 'Bank of Baku',
     period: 'Oct 2025 - Present',
     location: 'Baku, Azerbaijan',
