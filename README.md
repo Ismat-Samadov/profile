@@ -1,174 +1,265 @@
-# Machine Learning Engineer & AI Systems Developer Portfolio
+# Professional Portfolio - Ismat Samadov
 
-A modern, responsive professional portfolio website showcasing expertise in machine learning engineering, computer vision, NLP, and production AI systems. Built with Next.js 15, TypeScript, and Tailwind CSS.
+<div align="center">
 
-## 🔍 [Live Demo](https://ismat.pro)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-ismat.pro-blue?style=for-the-badge)](https://ismat.pro)
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js_15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-## ✨ Features
+**Delivering Value Through Technology & Data-Driven Solutions**
 
-- **Responsive Design**: Mobile-first approach optimized for all devices
-- **Modern UI/UX**: Clean design with smooth animations using Framer Motion
-- **SEO Optimized**: Comprehensive structured data and metadata for SWE engineering keywords
-- **Performance Focused**: Optimized for Core Web Vitals and fast loading
-- **Interactive Portfolio**: Dynamic showcase of ML projects and AI systems
-- **Contact Form**: Professional inquiry system with database integration
-- **Analytics**: Built-in visitor tracking and performance monitoring
+[🔗 Live Website](https://ismat.pro) • [📧 Contact](mailto:ismetsemedov@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/ismat-samadov/)
 
-## 🛠️ Tech Stack
+</div>
 
+---
+
+## 📸 Portfolio Showcase
+
+### Home Page
+![Home Page](./public/screenshots/home%20page.png)
+*Modern, responsive landing page with dynamic typing animation showcasing versatile expertise*
+
+### Experience
+![Experience Page](./public/screenshots/experience%20page.png)
+*Comprehensive professional experience across analytics and development roles*
+
+### Skills & Expertise
+![Skills Page](./public/screenshots/skills%20page.png)
+*Technical skills spanning software development, data analytics, and business intelligence*
+
+### Education & Certifications
+![Education Page](./public/screenshots/education%20page.png)
+*Academic background and professional certifications*
+
+### Technical Profiles
+![Tech Profiles](./public/screenshots/tech%20profiles.png)
+*Active presence across major technology and data science platforms*
+
+### Contact
+![Contact Page](./public/screenshots/contact%20page.png)
+*Professional contact form for inquiries and collaboration*
+
+---
+
+## 🎯 About
+
+A modern, responsive professional portfolio showcasing versatile expertise in **software development** and **data analytics**. Built to demonstrate both technical capabilities and business value delivery across banking and technology sectors.
+
+### 🌟 Key Highlights
+
+- **Versatile Professional**: Expertise spanning software development, data analytics, and business intelligence
+- **Business-Focused**: Emphasis on delivering measurable value and business outcomes
+- **Current Roles**: Leading Analyst at Bank of Baku & Backend Developer at Codeavors
+- **Technology Stack**: Python, SQL, FastAPI, React, Next.js, PostgreSQL, cloud infrastructure
+
+---
+
+## ✨ Website Features
+
+- 🎨 **Modern UI/UX**: Clean, professional design with smooth Framer Motion animations
+- 📱 **Fully Responsive**: Mobile-first approach optimized for all devices and screen sizes
+- ⚡ **High Performance**: Optimized for Core Web Vitals, fast loading, and excellent SEO
+- 🔍 **SEO Optimized**: Comprehensive structured data and metadata for maximum visibility
+- 📊 **Analytics Integration**: Built-in tracking for visitor insights and performance monitoring
+- 📧 **Contact System**: Professional contact form with email integration
+- 🌐 **Multi-Section**: Home, Experience, Skills, Education, Tech Profiles, and Contact sections
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
 - **Framework**: Next.js 15 with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
 - **Icons**: React Icons
+
+### Backend & Infrastructure
 - **Database**: Vercel Postgres
-- **Email**: Resend API
+- **Email Service**: Resend API
 - **Deployment**: Vercel
 - **Analytics**: Custom analytics system
 
-## 🤖 Professional Background
+### Development Tools
+- **Version Control**: Git & GitHub
+- **Package Manager**: npm
+- **Code Quality**: ESLint, TypeScript strict mode
+- **CI/CD**: Automated deployment via Vercel
 
-I am a **Machine Learning Engineer** specializing in production AI systems, computer vision, NLP, and MLOps infrastructure. My expertise spans:
+---
 
-### 🧠 Core SWE engineering
-- **Production ML Systems**: Building scalable AI systems serving 1M+ daily predictions
-- **Computer Vision**: Medical imaging AI, object detection (YOLOv8), agricultural monitoring
-- **Natural Language Processing**: Custom NER systems, language models, Azerbaijani NLP
-- **MLOps Infrastructure**: Model deployment, monitoring, and automated pipelines
-- **Financial ML**: Risk modeling, fraud detection, regulatory compliance (Basel III, IFRS 9)
+## 💼 Professional Background
 
-### 💼 Professional Experience
+### Current Positions
 
-**SQL Developer & SWE engineer** at Kapital Bank (2023-Present)
-- Developing enterprise ML systems for fraud detection and risk assessment
-- Building automated ML pipelines with real-time inference capabilities
-- Implementing regulatory compliance models meeting Basel III standards
+**Leading Analyst** | Bank of Baku (Oct 2025 - Present)
+- Collecting and analyzing data about products and services
+- Monitoring strategic goals and conducting related analyses
+- Preparing analytical reports to support decision-making
+- Evaluating KPI effectiveness and business intelligence
+- Analyzing competitive environment and market trends
 
-**Business Analytics & Data Science** at Unibank (2021-2023)
-- Built predictive models and ML solutions for customer behavior analysis
-- Developed automated reporting systems and ML-powered dashboards
-- Created feature engineering frameworks for business intelligence
+**Backend Developer** | Codeavors (Oct 2025 - Present)
+- Developing backend data services in Python
+- Building cloud backend stack with FastAPI, MongoDB, Redis
+- Implementing data fetching and scraping systems
+- Writing comprehensive tests and maintaining CI/CD pipelines
 
-### 🎓 Education & Credentials
+### Previous Experience
 
-- **MBA in Artificial Intelligence** - Azerbaijan State University of Economics (Current)
+**SQL Developer** | Kapital Bank (Feb 2023 - Sep 2025)
+- Developed complex SQL queries for fraud detection systems
+- Optimized database performance and stored procedures
+
+**Business Analyst** | Unibank (Dec 2021 - Feb 2023)
+- Extracted and analyzed data using SQL and Python
+- Created dashboards and reports for business insights
+
+---
+
+## 🎓 Education
+
+- **MBA in Artificial Intelligence** - Azerbaijan State University of Economics
 - **Bachelor in Management of Industry** - Mingachevir State University (2012-2016)
+
+### 🏆 Certifications
 - **Oracle Database SQL Certified Associate** (2022)
+- Multiple certifications in SQL, Python, Machine Learning (Kaggle, HackerRank)
 
-## 🚀 Featured ML Projects
+---
 
-### 🏥 Healthcare AI Systems
-- **[Chest Cancer Detection Platform](https://github.com/Ismat-Samadov/chest_cancer_detection)**: Medical imaging AI using DenseNet121 with 94.2% accuracy
-- **Medical DICOM Processing**: Automated preprocessing and diagnostic interfaces
+## 🚀 Getting Started
 
-### 👁️ Computer Vision Solutions
-- **[Tree Disease Detection System](https://github.com/Ismat-Samadov/crop_desease_detection)**: YOLOv8-based real-time detection achieving 93.3% mAP50
-- **Agricultural Monitoring**: UAV imagery analysis for precision farming
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-### 🔤 NLP & Language Engineering
-- **[Azerbaijani NER Engine](https://github.com/Ismat-Samadov/Named_Entity_Recognition)**: Custom NER for low-resource Azerbaijani language
-- **[Azerbaijani GPT Implementation](https://github.com/Ismat-Samadov/GPT)**: Transformer-based language model with custom tokenization
-
-### 🏦 Financial ML Systems
-- **[Enterprise PD Scoring API](https://github.com/Ismat-Samadov/probability_default)**: Basel III compliant risk models with sub-100ms latency
-- **[Real-time Fraud Detection](https://github.com/Ismat-Samadov/fraud_detection)**: Streaming ML system with 99.5% accuracy
-- **[CLV Prediction Engine](https://github.com/Ismat-Samadov/clv_model)**: Customer lifetime value prediction with MLOps
-
-### 🤖 AI Infrastructure
-- **[Intelligent Agent Framework](https://github.com/Ismat-Samadov/agent_implementation)**: Multi-agent systems with reinforcement learning
-- **MLOps Pipelines**: Automated model training, deployment, and monitoring
-
-## 🔧 Technical Expertise
-
-### **ML Frameworks & Libraries**
-- **Deep Learning**: TensorFlow, PyTorch, Keras
-- **Traditional ML**: Scikit-learn, XGBoost, LightGBM
-- **Computer Vision**: YOLOv8, OpenCV, Detectron2
-- **NLP**: Hugging Face Transformers, spaCy, NLTK
-- **Feature Engineering**: Feature-engine, Optuna
-
-### **Production Infrastructure**
-- **API Development**: FastAPI, Flask, REST/GraphQL APIs
-- **Containerization**: Docker, Kubernetes, microservices
-- **Cloud Platforms**: AWS, GCP, Azure, Vercel
-- **Databases**: PostgreSQL, MongoDB, Redis, Vector DBs
-- **Message Queues**: Kafka, RabbitMQ for streaming
-
-### **MLOps & DevOps**
-- **ML Lifecycle**: MLflow, Weights & Biases, DVC
-- **CI/CD**: GitHub Actions, automated testing
-- **Monitoring**: Model drift detection, performance tracking
-- **Version Control**: Git, DVC for data/model versioning
-
-### **Programming & Tools**
-- **Languages**: Python, SQL, JavaScript/TypeScript, Bash
-- **Data Processing**: pandas, NumPy, PySpark, Polars
-- **Visualization**: Plotly, Matplotlib, Seaborn
-- **Web Development**: Next.js, React, Node.js
-
-## 🌟 Key Achievements
-
-- **Production Impact**: Built ML systems serving 1M+ daily predictions with 99.9% uptime
-- **Model Performance**: Achieved 93%+ accuracy in computer vision tasks
-- **Regulatory Compliance**: Deployed Basel III compliant models in enterprise banking
-- **Research Contribution**: Advanced Azerbaijani NLP with custom language processing tools
-- **Real-time Systems**: Developed sub-100ms latency inference systems
-- **Open Source**: Active contributor to ML infrastructure and language processing libraries
-
-## 🎯 Current Focus Areas
-
-- **Edge AI Deployment**: Model optimization for mobile and IoT devices
-- **Distributed Training**: Large-scale model training infrastructure
-- **Explainable AI**: Building interpretable models for regulated industries
-- **Real-time Inference**: Low-latency model serving at scale
-- **Research**: Advancing low-resource language processing for Azerbaijani
-
-## 🔗 Professional Profiles
-
-- [GitHub](https://github.com/Ismat-Samadov) - ML projects and open source contributions
-- [Hugging Face](https://huggingface.co/IsmatS) - Model hub and NLP research
-- [Kaggle](https://www.kaggle.com/ismetsemedov) - ML competitions and datasets
-- [Medium](https://medium.com/@ismatsamadov) - Technical articles and tutorials
-- [HackerRank](https://www.hackerrank.com/profile/IsmatSamadov) - Algorithmic problem solving
-- [LeetCode](https://leetcode.com/u/ismetsemedov/) - Programming challenges
-
-## 📧 Professional Inquiries
-
-I'm passionate about solving complex problems with machine learning and building production AI systems that drive real business value. Open to:
-
-- **SWE engineering Roles**: Full-time opportunities in AI/SWE engineering
-- **Consulting Projects**: Custom AI solution development
-- **Research Collaboration**: Academic and industry partnerships
-- **Technical Speaking**: Conferences and workshops on SWE engineering
-
-**Contact**: [ismetsemedov@gmail.com](mailto:ismetsemedov@gmail.com)
-
-## 🛠️ Development Setup
+### Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/Ismat-Samadov/profile.git
+cd profile
 
 # Install dependencies
 npm install
 
 # Set up environment variables
 cp .env.example .env.local
-# Add your API keys and configuration
+# Add your configuration:
+# - Database credentials
+# - Email service API keys
+# - Analytics tracking IDs
 
 # Run development server
 npm run dev
-
-# Build for production
-npm run build
 ```
 
-## 📄 License
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-MIT License - see [LICENSE](LICENSE) file for details.
+### Build for Production
+
+```bash
+# Create production build
+npm run build
+
+# Start production server
+npm start
+```
 
 ---
 
-> "The best machine learning engineers don't just build models; they build systems that make models reliable, scalable, and valuable in production."
+## 📁 Project Structure
 
-*Building the future with AI, one system at a time.*
+```
+profile/
+├── public/
+│   ├── screenshots/      # Portfolio screenshots
+│   ├── logo/            # Company logos
+│   └── certificates/    # Certification images
+├── src/
+│   ├── app/             # Next.js app router pages
+│   ├── components/      # React components
+│   └── lib/             # Utility functions and configs
+├── .env.example         # Environment variables template
+└── README.md           # This file
+```
+
+---
+
+## 🔗 Professional Profiles
+
+- 🐙 [GitHub](https://github.com/Ismat-Samadov) - Open source projects and code repositories
+- 🤗 [Hugging Face](https://huggingface.co/IsmatS) - Machine learning models and datasets
+- 📊 [Kaggle](https://www.kaggle.com/ismetsemedov) - Data science competitions and notebooks
+- 💻 [HackerRank](https://www.hackerrank.com/profile/IsmatSamadov) - Programming challenges
+- 🎯 [LeetCode](https://leetcode.com/u/ismetsemedov/) - Algorithm problem solving
+- ✍️ [Medium](https://medium.com/@ismatsamadov) - Technical articles and insights
+- 💼 [LinkedIn](https://www.linkedin.com/in/ismat-samadov/) - Professional network
+
+---
+
+## 📊 Skills & Expertise
+
+### Software Development
+- **Languages**: Python, SQL, JavaScript/TypeScript
+- **Frameworks**: FastAPI, Django, Next.js, React
+- **APIs**: REST, GraphQL
+- **Databases**: PostgreSQL, MongoDB, Redis
+- **Tools**: Docker, Git, CI/CD
+
+### Data Analytics & BI
+- **Analysis**: SQL, Python (pandas, NumPy)
+- **Visualization**: Plotly, Tableau, Power BI
+- **Business Intelligence**: KPI monitoring, reporting
+- **Machine Learning**: TensorFlow, PyTorch, scikit-learn
+
+### Cloud & DevOps
+- **Platforms**: Google Cloud, AWS, Vercel
+- **Containers**: Docker, Kubernetes
+- **Monitoring**: Performance tracking, analytics
+- **CI/CD**: GitHub Actions, GitLab CI/CD
+
+---
+
+## 📧 Contact & Collaboration
+
+I'm passionate about leveraging technology to deliver business value through scalable systems and data-driven insights. Open to:
+
+- 💼 **Full-time Opportunities**: Roles in software development, data analytics, or business intelligence
+- 🤝 **Consulting Projects**: Custom solutions for analytical and development challenges
+- 🎤 **Speaking Engagements**: Tech talks and workshops
+- 🔬 **Collaboration**: Open source contributions and technical partnerships
+
+**Email**: [ismetsemedov@gmail.com](mailto:ismetsemedov@gmail.com)
+**Website**: [ismat.pro](https://ismat.pro)
+**Location**: Baku, Azerbaijan
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/) and deployed on [Vercel](https://vercel.com/)
+- Animations powered by [Framer Motion](https://www.framer.com/motion/)
+- Icons from [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+<div align="center">
+
+**⭐ If you find this portfolio structure useful, please give it a star!**
+
+Made with ❤️ by [Ismat Samadov](https://ismat.pro)
+
+*Delivering value through technology and data-driven solutions*
+
+</div>
