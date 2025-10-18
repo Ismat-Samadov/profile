@@ -49,13 +49,10 @@ export function generatePageMetadata({
   // Merge default and custom keywords
   const defaultKeywords = [
     'Ismat Samadov',
-    'Backend Developer',
-    'Data Analyst',
+    'Software Engineering',
+    'Data Analytics',
     'Business Intelligence',
-    'Full-Stack Engineer',
-    'Software Developer',
-    'API Developer',
-    'Python Developer',
+    'Python',
     'FastAPI',
     'Django',
     'Node.js',
@@ -119,7 +116,7 @@ export function generatePageMetadata({
     title,
     description,
     url,
-    siteName: 'Ismat Samadov | Backend Developer & Data Analyst',
+    siteName: 'Ismat Samadov | Software & Analytics Professional',
     locale: 'en_US',
     type: contentType === 'BlogPosting' || contentType === 'TechArticle' ? 'article' : 'website',
     images: [{
@@ -201,19 +198,19 @@ export function generatePageMetadata({
 export const defaultMetadata: Metadata = {
   title: {
     template: '%s | Ismat Samadov',
-    default: 'Ismat Samadov | Backend Developer & Data Analyst',
+    default: 'Ismat Samadov | Software & Analytics Professional',
   },
-  description: 'Versatile professional combining backend development and data analytics expertise. Specializing in scalable APIs, business intelligence, SQL optimization, and data-driven decision making. Building robust systems and analytical solutions for banking and technology sectors. Expert in Python, FastAPI, SQL, PostgreSQL, and data analysis.',
+  description: 'Versatile technology professional with expertise in software development and data analytics. Delivering value through scalable systems, business intelligence, and data-driven insights for banking and technology sectors. Specialized in Python, SQL, cloud infrastructure, and analytical solutions.',
   metadataBase: new URL('https://ismat.pro'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'Ismat Samadov | Backend Developer & Data Analyst',
+    siteName: 'Ismat Samadov | Software & Analytics Professional',
     images: [{
       url: '/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Ismat Samadov - Backend Developer & Data Analyst',
+      alt: 'Ismat Samadov - Software & Analytics Professional',
     }],
   },
   twitter: {

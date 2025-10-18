@@ -75,12 +75,12 @@ const Hero = () => {
             className="mb-8 bg-white/95 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl"
           >
             <p className="text-slate-700 mb-3 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Versatile professional with expertise in both backend development and data analytics, specializing in
-              building scalable systems, business intelligence, and data-driven decision making across banking and technology sectors.
+              Versatile technology professional delivering value through scalable systems, data-driven insights,
+              and business intelligence solutions across banking and technology sectors.
             </p>
             <p className="text-slate-700 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Currently serving as Leading Analyst at Bank of Baku and Backend Developer at Codeavors, combining
-              analytical insights with technical solutions to drive business value and system performance.
+              Currently at Bank of Baku and Codeavors, combining analytical expertise with technical innovation
+              to drive measurable business outcomes and system performance.
             </p>
           </motion.div>
 

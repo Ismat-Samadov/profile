@@ -4,7 +4,7 @@ export function PersonStructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Ismat Samadov',
-    description: 'Backend Developer & Data Analyst specializing in scalable APIs, business intelligence, SQL optimization, and data-driven analytics',
+    description: 'Technology professional delivering value through software development, data analytics, and business intelligence solutions',
     url: 'https://ismat.pro',
     image: 'https://ismat.pro/images/ismat-samadov.jpg',
     jobTitle: 'Leading Analyst',
@@ -205,10 +205,10 @@ export function WebsiteStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Ismat Samadov | Backend Developer & Data Analyst',
+    name: 'Ismat Samadov | Software & Analytics Professional',
     alternateName: 'Ismat Samadov Portfolio',
     url: 'https://ismat.pro',
-    description: 'Backend Developer & Data Analyst specializing in scalable APIs, business intelligence, SQL optimization, and data-driven analytics. Building robust systems and analytical solutions for banking and technology sectors.',
+    description: 'Technology professional delivering value through software development, data analytics, and business intelligence. Building scalable systems and analytical solutions for banking and technology sectors.',
     inLanguage: ['en-US', 'az-AZ', 'ru-RU'],
     potentialAction: {
       '@type': 'SearchAction',
@@ -231,23 +231,23 @@ export function WebsiteStructuredData() {
     about: [
       {
         '@type': 'Thing',
-        name: 'Backend Development',
-        description: 'Scalable API development and system architecture'
+        name: 'Software Development',
+        description: 'Scalable systems and technical solutions'
       },
       {
         '@type': 'Thing',
         name: 'Data Analytics',
-        description: 'Business intelligence, KPI monitoring, and analytical reporting'
+        description: 'Business intelligence and data-driven insights'
       },
       {
         '@type': 'Thing',
-        name: 'SQL Development',
-        description: 'Database optimization and complex query development'
+        name: 'Database Solutions',
+        description: 'SQL optimization and data management'
       },
       {
         '@type': 'Thing',
-        name: 'Machine Learning',
-        description: 'Production ML systems and AI infrastructure'
+        name: 'AI & Machine Learning',
+        description: 'Intelligent systems and predictive analytics'
       }
     ]
   };
@@ -267,8 +267,8 @@ export function OrganizationStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: 'Ismat Samadov Development & Analytics Services',
-    description: 'Backend Development, Data Analytics, and Business Intelligence Services',
+    name: 'Ismat Samadov Technology Services',
+    description: 'Software Development, Data Analytics, and Business Intelligence Solutions',
     url: 'https://ismat.pro',
     founder: {
       '@type': 'Person',
@@ -280,19 +280,17 @@ export function OrganizationStructuredData() {
       name: 'Global'
     },
     serviceType: [
-      'Backend Development',
+      'Software Development',
       'Data Analytics',
       'Business Intelligence',
-      'SQL Development',
-      'Full-Stack Engineering',
+      'Database Solutions',
       'API Development',
-      'Database Optimization',
       'KPI Monitoring',
       'Analytical Reporting',
-      'Computer Vision Solutions',
-      'NLP Engineering',
-      'MLOps Infrastructure',
-      'Production ML Deployment'
+      'Machine Learning Solutions',
+      'System Architecture',
+      'Data Pipelines',
+      'Cloud Infrastructure'
     ],
     priceRange: 'Consultation Available',
     address: {

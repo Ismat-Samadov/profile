@@ -32,10 +32,10 @@ export async function GET() {
             Ismat Samadov
           </div>
           <div style={{ fontSize: 32, opacity: 0.9, marginBottom: 20 }}>
-            Backend Developer & Data Analyst
+            Software & Analytics Professional
           </div>
           <div style={{ fontSize: 24, opacity: 0.8, lineHeight: 1.4 }}>
-            APIs • SQL • Business Intelligence • Data Analytics
+            Delivering Value Through Technology & Data-Driven Solutions
           </div>
         </div>
         <div 

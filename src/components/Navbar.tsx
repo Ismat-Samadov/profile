@@ -28,9 +28,7 @@ const Navbar = () => {
         <Link href="/" className={`text-xl font-bold z-20 transition-colors duration-300 ${
           isScrolled ? 'text-primary' : 'text-white drop-shadow-lg'
         }`}>
-          Ismat Samadov <span className={`hidden sm:inline font-normal text-sm transition-colors duration-300 ${
-            isScrolled ? 'text-gray-700' : 'text-white/80'
-          }`}>Backend Developer</span>
+          Ismat Samadov
         </Link>
         
         {/* Mobile menu button - improved z-index */}
