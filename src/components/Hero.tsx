@@ -11,7 +11,7 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false)
 
   useEffect(() => {
-    const titles = ['Backend Developer', 'Full-Stack Engineer', 'Software Developer', 'API Architect']
+    const titles = ['Backend Developer', 'Data Analyst', 'Full-Stack Engineer', 'Business Intelligence Specialist']
     const typeSpeed = isDeleting ? 50 : 100
     const currentTitle = titles[titleIndex]
     
@@ -54,7 +54,7 @@ const Hero = () => {
             <span className="animate-pulse text-cyan-400">|</span>
           </div>
           <div className="flex flex-wrap justify-center gap-2 mb-6">
-            {['Backend Development', 'API Design', 'Databases', 'Cloud Architecture'].map((skill, index) => (
+            {['Backend Development', 'Data Analytics', 'SQL & Databases', 'Business Intelligence'].map((skill, index) => (
               <motion.span
                 key={skill}
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -75,12 +75,12 @@ const Hero = () => {
             className="mb-8 bg-white/95 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl"
           >
             <p className="text-slate-700 mb-3 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Building scalable backend systems and full-stack applications with expertise in API development,
-              database optimization, and cloud infrastructure across banking and technology sectors.
+              Versatile professional with expertise in both backend development and data analytics, specializing in
+              building scalable systems, business intelligence, and data-driven decision making across banking and technology sectors.
             </p>
             <p className="text-slate-700 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Currently developing backend solutions at Codeavors while creating efficient data pipelines
-              and optimizing database performance for high-traffic applications.
+              Currently serving as Leading Analyst at Bank of Baku and Backend Developer at Codeavors, combining
+              analytical insights with technical solutions to drive business value and system performance.
             </p>
           </motion.div>
 
