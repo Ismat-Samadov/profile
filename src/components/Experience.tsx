@@ -4,6 +4,22 @@ import { motion } from 'framer-motion'
 
 const experienceData = [
   {
+    title: 'Head Expert of Analytical Analysis Department',
+    company: 'Bank of Baku',
+    period: 'Oct 2025 - Present',
+    location: 'Baku, Azerbaijan',
+    jobType: 'Full Time',
+    workMode: 'Onsite',
+    responsibilities: [
+      'Collecting and analyzing data about products and services related to the Bank\'s activities',
+      'Monitoring strategic goals set by the Bank and conducting related analyses',
+      'Preparing analytical reports and reviews based on descriptive and diagnostic analyses to support decision-making processes',
+      'Monitoring KPI indicators and evaluating their effectiveness',
+      'Analyzing competitive environment, market trends, and new business opportunities',
+      'Initiating improvements in analytical processes and automation of reports'
+    ]
+  },
+  {
     title: 'Backend Developer',
     company: 'Codeavors',
     period: 'Oct 2025 - Present',
@@ -113,6 +129,7 @@ interface ExperienceItemProps {
 
 const ExperienceItem = ({ title, company, period, location, jobType, workMode, responsibilities, index }: ExperienceItemProps) => {
   const getLogoPath = (companyName: string) => {
+    if (companyName.toLowerCase().includes('bank of baku')) return '/logo/bob.png'
     if (companyName.toLowerCase().includes('codeavors')) return '/logo/codeavors.jpg'
     if (companyName.toLowerCase().includes('kapital')) return '/logo/birbank.png'
     if (companyName.toLowerCase().includes('unibank')) return '/logo/unibank.jpeg'
