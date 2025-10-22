@@ -4,28 +4,28 @@ import { motion } from 'framer-motion'
 import { FaCode, FaDatabase, FaChartBar, FaTools, FaBrain, FaRobot } from 'react-icons/fa'
 
 const skillsData = {
-  backendDevelopment: {
-    skills: ['Python', 'FastAPI', 'Django', 'Node.js', 'REST APIs', 'GraphQL'],
-    color: 'from-purple-500 to-indigo-500'
-  },
-  databases: {
-    skills: ['PostgreSQL', 'MongoDB', 'Redis', 'SQL Optimization', 'Database Design', 'Query Performance'],
+  dataAnalytics: {
+    skills: ['SQL', 'Python (pandas, NumPy)', 'Data Visualization', 'Statistical Analysis', 'KPI Monitoring', 'Reporting'],
     color: 'from-blue-500 to-cyan-500'
   },
-  cloudInfrastructure: {
-    skills: ['Docker', 'Kubernetes', 'Google Cloud', 'AWS', 'CI/CD', 'Microservices'],
+  businessIntelligence: {
+    skills: ['Tableau', 'Power BI', 'Plotly', 'Dashboard Design', 'Business Metrics', 'Strategic Analysis'],
+    color: 'from-purple-500 to-indigo-500'
+  },
+  machineLearning: {
+    skills: ['TensorFlow', 'PyTorch', 'scikit-learn', 'Deep Learning', 'Model Training', 'Feature Engineering'],
     color: 'from-green-500 to-emerald-500'
   },
-  dataEngineering: {
-    skills: ['ETL Pipelines', 'Data Processing', 'Apache Airflow', 'Data Validation', 'Real-time Processing', 'Data Modeling'],
+  aiApplications: {
+    skills: ['NLP', 'Computer Vision', 'Predictive Analytics', 'Fraud Detection', 'Time Series', 'Classification'],
     color: 'from-orange-500 to-red-500'
   },
-  tools: {
-    skills: ['Git/GitLab', 'Linux', 'Nginx', 'Pytest', 'Postman', 'Web Scraping'],
+  databases: {
+    skills: ['PostgreSQL', 'SQL Optimization', 'Database Design', 'Query Performance', 'Data Warehousing', 'Data Modeling'],
     color: 'from-teal-500 to-blue-500'
   },
-  frontend: {
-    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Responsive Design', 'JavaScript'],
+  analyticsTools: {
+    skills: ['Jupyter', 'Git', 'Excel', 'Data Mining', 'A/B Testing', 'Market Analysis'],
     color: 'from-pink-500 to-rose-500'
   }
 }
@@ -45,50 +45,50 @@ const Skills = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             <SkillCategory
-              title="Backend Development"
-              icon={<FaCode />}
-              skills={skillsData.backendDevelopment.skills}
-              color={skillsData.backendDevelopment.color}
+              title="Data Analytics"
+              icon={<FaChartBar />}
+              skills={skillsData.dataAnalytics.skills}
+              color={skillsData.dataAnalytics.color}
               delay={0}
             />
 
             <SkillCategory
-              title="Databases"
-              icon={<FaDatabase />}
-              skills={skillsData.databases.skills}
-              color={skillsData.databases.color}
+              title="Business Intelligence"
+              icon={<FaTools />}
+              skills={skillsData.businessIntelligence.skills}
+              color={skillsData.businessIntelligence.color}
               delay={0.1}
             />
 
             <SkillCategory
-              title="Cloud & Infrastructure"
-              icon={<FaTools />}
-              skills={skillsData.cloudInfrastructure.skills}
-              color={skillsData.cloudInfrastructure.color}
+              title="Machine Learning"
+              icon={<FaBrain />}
+              skills={skillsData.machineLearning.skills}
+              color={skillsData.machineLearning.color}
               delay={0.2}
             />
 
             <SkillCategory
-              title="Data Engineering"
-              icon={<FaChartBar />}
-              skills={skillsData.dataEngineering.skills}
-              color={skillsData.dataEngineering.color}
+              title="AI Applications"
+              icon={<FaRobot />}
+              skills={skillsData.aiApplications.skills}
+              color={skillsData.aiApplications.color}
               delay={0.3}
             />
 
             <SkillCategory
-              title="DevOps & Tools"
-              icon={<FaBrain />}
-              skills={skillsData.tools.skills}
-              color={skillsData.tools.color}
+              title="Databases & SQL"
+              icon={<FaDatabase />}
+              skills={skillsData.databases.skills}
+              color={skillsData.databases.color}
               delay={0.4}
             />
 
             <SkillCategory
-              title="Frontend Development"
-              icon={<FaRobot />}
-              skills={skillsData.frontend.skills}
-              color={skillsData.frontend.color}
+              title="Analytics Tools"
+              icon={<FaCode />}
+              skills={skillsData.analyticsTools.skills}
+              color={skillsData.analyticsTools.color}
               delay={0.5}
             />
           </div>
@@ -106,23 +106,23 @@ const Skills = () => {
               className="bg-gradient-to-br from-blue-500 to-indigo-600 p-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="text-3xl font-bold text-white mb-2">5+</div>
-              <div className="text-sm text-blue-100">Years in Backend & Data Development</div>
+              <div className="text-sm text-blue-100">Years in Data Analytics & BI</div>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-green-500 to-emerald-600 p-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <div className="text-3xl font-bold text-white mb-2">100k+</div>
-              <div className="text-sm text-green-100">Daily API Requests Handled</div>
+              <div className="text-3xl font-bold text-white mb-2">50+</div>
+              <div className="text-sm text-green-100">Analytical Reports Delivered</div>
             </motion.div>
 
             <motion.div
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-purple-500 to-violet-600 p-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <div className="text-3xl font-bold text-white mb-2">&lt;50ms</div>
-              <div className="text-sm text-purple-100">Average API Response Time</div>
+              <div className="text-3xl font-bold text-white mb-2">10+</div>
+              <div className="text-sm text-purple-100">ML Models Developed & Deployed</div>
             </motion.div>
           </motion.div>
         </motion.div>

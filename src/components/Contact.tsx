@@ -158,24 +158,24 @@ const Contact = () => {
           
           <div className="max-w-md mx-auto">
             <div>
-              <h3 className="text-xl font-bold mb-4 md:mb-6">Looking for a Developer?</h3>
+              <h3 className="text-xl font-bold mb-4 md:mb-6">Looking for a Data Analytics Professional?</h3>
 
               <p className="text-gray-700 text-sm sm:text-base mb-6">
-                I&apos;m passionate about building scalable backend systems and full-stack applications.
-                Whether you&apos;re looking to develop robust APIs, optimize database performance, or create
-                end-to-end solutions, I&apos;d love to discuss how I can help.
+                I&apos;m passionate about delivering insights through data analytics, machine learning, and business intelligence.
+                Whether you&apos;re looking to build predictive models, optimize business metrics, or create
+                data-driven strategies, I&apos;d love to discuss how I can help.
               </p>
 
               {/* Expertise highlights */}
               <div className="mb-6 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg">
                 <h4 className="font-semibold text-sm mb-2">What I Can Help With:</h4>
                 <ul className="text-xs space-y-1 text-gray-700">
-                  <li>• Backend API development with Python, FastAPI, Django</li>
-                  <li>• Database design and SQL optimization</li>
-                  <li>• Full-stack applications with React and Next.js</li>
-                  <li>• Cloud infrastructure and microservices</li>
-                  <li>• Data pipelines and ETL processes</li>
-                  <li>• Performance optimization and scalability</li>
+                  <li>• Business intelligence and dashboard development</li>
+                  <li>• Machine learning and predictive analytics</li>
+                  <li>• SQL optimization and database analytics</li>
+                  <li>• KPI monitoring and strategic analysis</li>
+                  <li>• Data visualization with Tableau and Power BI</li>
+                  <li>• Statistical analysis and market research</li>
                 </ul>
               </div>
               
@@ -239,7 +239,7 @@ const Contact = () => {
                     className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent ${
                       errors.message ? 'border-red-500' : 'border-gray-300'
                     }`}
-                    placeholder="Tell me about your project, technical challenge, or opportunity. What are you looking to build?"
+                    placeholder="Tell me about your analytics needs, business challenge, or data opportunity. What insights are you looking to discover?"
                   />
                   {errors.message && (
                     <p className="text-red-500 text-xs sm:text-sm mt-1 flex items-center">

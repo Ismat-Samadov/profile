@@ -4,7 +4,7 @@ export function PersonStructuredData() {
       '@context': 'https://schema.org',
       '@type': 'Person',
       name: 'Ismat Samadov',
-      description: 'Technology professional delivering value through software development, data analytics, business intelligence, and intelligent systems',
+      description: 'Data analytics and AI professional delivering value through business intelligence, machine learning, and strategic insights',
       url: 'https://ismat.pro',
       image: 'https://ismat.pro/images/ismat-samadov.jpg', // Add a professional photo
       jobTitle: 'Leading Analyst',
@@ -44,17 +44,18 @@ export function PersonStructuredData() {
         'https://www.linkedin.com/in/ismat-samadov/' // Add LinkedIn
       ],
       knowsAbout: [
-        'Software Development',
         'Data Analytics',
         'Business Intelligence',
+        'Machine Learning',
+        'Artificial Intelligence',
         'SQL & Databases',
         'KPI Monitoring',
         'Analytical Reporting',
-        'Machine Learning',
-        'Cloud Infrastructure',
-        'API Development',
-        'System Architecture',
-        'Data Pipelines'
+        'Predictive Analytics',
+        'Data Visualization',
+        'Statistical Analysis',
+        'Strategic Analysis',
+        'Financial Analytics'
       ],
       address: {
         '@type': 'PostalAddress',

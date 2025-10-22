@@ -27,7 +27,7 @@
 
 ### Skills & Expertise
 ![Skills Page](./public/screenshots/skills%20page.png)
-*Technical skills spanning software development, data analytics, and business intelligence*
+*Technical skills in data analytics, business intelligence, and machine learning*
 
 ### Education & Certifications
 ![Education Page](./public/screenshots/education%20page.png)
@@ -52,7 +52,7 @@ A modern, responsive professional portfolio showcasing expertise in **data analy
 - **Data Analytics Professional**: Specialized in data analytics, business intelligence, and strategic insights
 - **Business-Focused**: Emphasis on delivering measurable value and business outcomes
 - **Current Role**: Leading Analyst at Bank of Baku
-- **Technology Stack**: Python, SQL, FastAPI, React, Next.js, PostgreSQL, cloud infrastructure
+- **Technology Stack**: Python, SQL, Machine Learning, Tableau, Power BI, PostgreSQL, Analytics Tools
 
 ---
 
@@ -77,7 +77,7 @@ A modern, responsive professional portfolio showcasing expertise in **data analy
 - **Animations**: Framer Motion
 - **Icons**: React Icons
 
-### Backend & Infrastructure
+### Infrastructure
 - **Database**: Vercel Postgres
 - **Email Service**: Resend API
 - **Deployment**: Vercel
@@ -198,24 +198,31 @@ profile/
 
 ## 📊 Skills & Expertise
 
-### Software Development
-- **Languages**: Python, SQL, JavaScript/TypeScript
-- **Frameworks**: FastAPI, Django, Next.js, React
-- **APIs**: REST, GraphQL
-- **Databases**: PostgreSQL, MongoDB, Redis
-- **Tools**: Docker, Git, CI/CD
-
-### Data Analytics & BI
+### Data Analytics
 - **Analysis**: SQL, Python (pandas, NumPy)
-- **Visualization**: Plotly, Tableau, Power BI
-- **Business Intelligence**: KPI monitoring, reporting
-- **Machine Learning**: TensorFlow, PyTorch, scikit-learn
+- **Statistical Methods**: Statistical analysis, hypothesis testing
+- **Reporting**: KPI monitoring, analytical reports
+- **Data Mining**: Pattern recognition, data exploration
+- **Tools**: Jupyter, Excel, Git
 
-### Cloud & DevOps
-- **Platforms**: Google Cloud, AWS, Vercel
-- **Containers**: Docker, Kubernetes
-- **Monitoring**: Performance tracking, analytics
-- **CI/CD**: GitHub Actions, GitLab CI/CD
+### Business Intelligence
+- **Visualization**: Tableau, Power BI, Plotly
+- **Dashboards**: Interactive dashboards, business metrics
+- **Strategic Analysis**: Market analysis, competitive intelligence
+- **Performance Tracking**: KPI monitoring, trend analysis
+
+### Machine Learning & AI
+- **Frameworks**: TensorFlow, PyTorch, scikit-learn
+- **Applications**: Predictive analytics, fraud detection, NLP
+- **Computer Vision**: Image classification, object detection
+- **Time Series**: Forecasting, trend analysis
+- **Model Deployment**: Production ML systems
+
+### Database & SQL
+- **Databases**: PostgreSQL, SQL optimization
+- **Design**: Database design, data warehousing
+- **Performance**: Query optimization, indexing
+- **Data Modeling**: ER diagrams, schema design
 
 ---
 

@@ -4,7 +4,7 @@ export function PersonStructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Ismat Samadov',
-    description: 'Technology professional delivering value through software development, data analytics, and business intelligence solutions',
+    description: 'Data analytics and AI professional delivering value through business intelligence, machine learning, and strategic insights',
     url: 'https://ismat.pro',
     image: 'https://ismat.pro/images/ismat-samadov.jpg',
     jobTitle: 'Leading Analyst',
@@ -51,40 +51,41 @@ export function PersonStructuredData() {
       'https://www.linkedin.com/in/ismat-samadov/'
     ],
     knowsAbout: [
-      'Backend Development',
       'Data Analytics',
       'Business Intelligence',
+      'Machine Learning',
+      'Artificial Intelligence',
       'SQL Optimization',
       'KPI Monitoring',
       'Financial Analytics',
       'Analytical Reports',
-      'Deep Learning Systems',
+      'Strategic Analysis',
+      'Deep Learning',
       'Computer Vision',
       'Natural Language Processing',
-      'Medical AI',
-      'Financial ML',
-      'MLOps',
-      'Model Deployment',
+      'Predictive Analytics',
       'TensorFlow',
       'PyTorch',
-      'YOLOv8',
-      'Transformers',
-      'Named Entity Recognition',
+      'scikit-learn',
+      'Data Visualization',
+      'Tableau',
+      'Power BI',
+      'Statistical Analysis',
       'Fraud Detection',
-      'Real-time Inference',
+      'Time Series Analysis',
       'Feature Engineering',
-      'Data Pipelines',
-      'FastAPI',
-      'Docker',
-      'Kubernetes',
-      'Production ML Systems',
-      'AI Infrastructure',
-      'Model Optimization',
-      'Healthcare AI',
-      'Azerbaijani NLP',
-      'Low-resource Languages',
-      'Enterprise AI Solutions',
-      'Regulatory Compliance ML',
+      'Data Mining',
+      'Model Training',
+      'Model Deployment',
+      'Python',
+      'pandas',
+      'NumPy',
+      'PostgreSQL',
+      'Database Design',
+      'Data Warehousing',
+      'Business Metrics',
+      'Dashboard Design',
+      'Market Analysis',
       'Basel III',
       'IFRS 9'
     ],
@@ -114,11 +115,11 @@ export function PersonStructuredData() {
     email: 'mailto:ismetsemedov@gmail.com',
     // Professional achievements
     award: [
-      'Production ML Systems serving 1M+ daily predictions',
-      '93.3% mAP50 accuracy in computer vision models',
-      'Sub-100ms latency real-time inference systems',
-      'Basel III compliant risk models',
-      'Custom NLP solutions for low-resource languages'
+      '5+ years of data analytics and business intelligence expertise',
+      '50+ analytical reports delivered for strategic decision making',
+      '10+ ML models developed and deployed in production',
+      'Basel III compliant risk analytics and reporting',
+      'Advanced SQL optimization and database performance tuning'
     ]
   };
 
@@ -205,10 +206,10 @@ export function WebsiteStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Ismat Samadov | Software & Analytics Professional',
+    name: 'Ismat Samadov | Data Analytics & AI Professional',
     alternateName: 'Ismat Samadov Portfolio',
     url: 'https://ismat.pro',
-    description: 'Technology professional delivering value through software development, data analytics, and business intelligence. Building scalable systems and analytical solutions for banking and technology sectors.',
+    description: 'Data analytics and AI professional delivering value through business intelligence, machine learning, and strategic insights. Building analytical solutions and intelligent systems for banking and financial sectors.',
     inLanguage: ['en-US', 'az-AZ', 'ru-RU'],
     potentialAction: {
       '@type': 'SearchAction',
@@ -231,23 +232,23 @@ export function WebsiteStructuredData() {
     about: [
       {
         '@type': 'Thing',
-        name: 'Software Development',
-        description: 'Scalable systems and technical solutions'
-      },
-      {
-        '@type': 'Thing',
         name: 'Data Analytics',
         description: 'Business intelligence and data-driven insights'
       },
       {
         '@type': 'Thing',
-        name: 'Database Solutions',
-        description: 'SQL optimization and data management'
+        name: 'Machine Learning & AI',
+        description: 'Intelligent systems and predictive analytics'
       },
       {
         '@type': 'Thing',
-        name: 'AI & Machine Learning',
-        description: 'Intelligent systems and predictive analytics'
+        name: 'Business Intelligence',
+        description: 'Strategic insights and KPI monitoring'
+      },
+      {
+        '@type': 'Thing',
+        name: 'Database Analytics',
+        description: 'SQL optimization and data management'
       }
     ]
   };
@@ -267,8 +268,8 @@ export function OrganizationStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: 'Ismat Samadov Technology Services',
-    description: 'Software Development, Data Analytics, and Business Intelligence Solutions',
+    name: 'Ismat Samadov Analytics & AI Services',
+    description: 'Data Analytics, Business Intelligence, and AI/ML Solutions',
     url: 'https://ismat.pro',
     founder: {
       '@type': 'Person',
@@ -280,17 +281,18 @@ export function OrganizationStructuredData() {
       name: 'Global'
     },
     serviceType: [
-      'Software Development',
       'Data Analytics',
       'Business Intelligence',
-      'Database Solutions',
-      'API Development',
+      'Machine Learning Solutions',
+      'AI Consulting',
+      'Predictive Analytics',
       'KPI Monitoring',
       'Analytical Reporting',
-      'Machine Learning Solutions',
-      'System Architecture',
-      'Data Pipelines',
-      'Cloud Infrastructure'
+      'Database Analytics',
+      'Data Visualization',
+      'Strategic Analysis',
+      'Financial Analytics',
+      'Statistical Modeling'
     ],
     priceRange: 'Consultation Available',
     address: {
