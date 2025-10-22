@@ -7,7 +7,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js_15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-**Delivering Value Through Technology & Data-Driven Solutions**
+**Delivering Value Through Data Analytics & Strategic Insights**
 
 [🔗 Live Website](https://ismat.pro) • [📧 Contact](mailto:ismetsemedov@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/ismat-samadov/)
 
@@ -23,7 +23,7 @@
 
 ### Experience
 ![Experience Page](./public/screenshots/experience%20page.png)
-*Comprehensive professional experience across analytics and development roles*
+*Comprehensive professional experience in data analytics and business intelligence*
 
 ### Skills & Expertise
 ![Skills Page](./public/screenshots/skills%20page.png)
@@ -45,13 +45,13 @@
 
 ## 🎯 About
 
-A modern, responsive professional portfolio showcasing versatile expertise in **software development** and **data analytics**. Built to demonstrate both technical capabilities and business value delivery across banking and technology sectors.
+A modern, responsive professional portfolio showcasing expertise in **data analytics** and **business intelligence**. Built to demonstrate analytical capabilities and business value delivery across banking and financial sectors.
 
 ### 🌟 Key Highlights
 
-- **Versatile Professional**: Expertise spanning software development, data analytics, and business intelligence
+- **Data Analytics Professional**: Specialized in data analytics, business intelligence, and strategic insights
 - **Business-Focused**: Emphasis on delivering measurable value and business outcomes
-- **Current Roles**: Leading Analyst at Bank of Baku & Backend Developer at Codeavors
+- **Current Role**: Leading Analyst at Bank of Baku
 - **Technology Stack**: Python, SQL, FastAPI, React, Next.js, PostgreSQL, cloud infrastructure
 
 ---
@@ -93,7 +93,7 @@ A modern, responsive professional portfolio showcasing versatile expertise in **
 
 ## 💼 Professional Background
 
-### Current Positions
+### Current Position
 
 **Leading Analyst** | Bank of Baku (Oct 2025 - Present)
 - Collecting and analyzing data about products and services
@@ -101,12 +101,6 @@ A modern, responsive professional portfolio showcasing versatile expertise in **
 - Preparing analytical reports to support decision-making
 - Evaluating KPI effectiveness and business intelligence
 - Analyzing competitive environment and market trends
-
-**Backend Developer** | Codeavors (Oct 2025 - Present)
-- Developing backend data services in Python
-- Building cloud backend stack with FastAPI, MongoDB, Redis
-- Implementing data fetching and scraping systems
-- Writing comprehensive tests and maintaining CI/CD pipelines
 
 ### Previous Experience
 
@@ -227,10 +221,10 @@ profile/
 
 ## 📧 Contact & Collaboration
 
-I'm passionate about leveraging technology to deliver business value through scalable systems and data-driven insights. Open to:
+I'm passionate about leveraging data analytics to deliver business value through strategic insights and data-driven decision making. Open to:
 
-- 💼 **Full-time Opportunities**: Roles in software development, data analytics, or business intelligence
-- 🤝 **Consulting Projects**: Custom solutions for analytical and development challenges
+- 💼 **Full-time Opportunities**: Roles in data analytics, business intelligence, or strategic analysis
+- 🤝 **Consulting Projects**: Custom solutions for analytical challenges and data-driven insights
 - 🎤 **Speaking Engagements**: Tech talks and workshops
 - 🔬 **Collaboration**: Open source contributions and technical partnerships
 
@@ -260,6 +254,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Made with ❤️ by [Ismat Samadov](https://ismat.pro)
 
-*Delivering value through technology and data-driven solutions*
+*Delivering value through data analytics and strategic insights*
 
 </div>
