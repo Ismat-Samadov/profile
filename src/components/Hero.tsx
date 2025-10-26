@@ -89,18 +89,8 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.6 }}
-            className="flex flex-col sm:flex-row justify-center items-center gap-4"
+            className="flex justify-center items-center"
           >
-            <motion.a
-              href="#projects"
-              whileHover={{ scale: 1.05, boxShadow: "0 10px 25px rgba(0,0,0,0.2)" }}
-              whileTap={{ scale: 0.95 }}
-              className="w-full sm:w-auto inline-block bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-center border border-cyan-400/20"
-              aria-label="View my development projects"
-            >
-              View Projects
-            </motion.a>
-
             <DownloadButton
               filePath="/ISMAT SAMADOV.pdf"
               label="Download CV"
