@@ -7,7 +7,7 @@ export function PersonStructuredData() {
       description: 'Data analytics and AI professional delivering value through business intelligence, machine learning, and strategic insights',
       url: 'https://ismat.pro',
       image: 'https://ismat.pro/images/ismat-samadov.jpg', // Add a professional photo
-      jobTitle: 'Leading Analyst',
+      jobTitle: 'Data Analyst',
       worksFor: {
         '@type': 'Organization',
         name: 'Bank of Baku',

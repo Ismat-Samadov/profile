@@ -95,7 +95,7 @@ A modern, responsive professional portfolio showcasing expertise in **data analy
 
 ### Current Position
 
-**Leading Analyst** | Bank of Baku (Oct 2025 - Present)
+**Data Analyst** | Bank of Baku (Oct 2025 - Present)
 - Collecting and analyzing data about products and services
 - Monitoring strategic goals and conducting related analyses
 - Preparing analytical reports to support decision-making
