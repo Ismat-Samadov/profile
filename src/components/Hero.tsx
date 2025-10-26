@@ -11,7 +11,7 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false)
 
   useEffect(() => {
-    const titles = ['Data Analyst', 'Business Intelligence Specialist', 'SQL Developer', 'Analytics Professional']
+    const titles = ['Fraud Analyst', 'Data Analyst', 'Risk Management Specialist', 'Business Intelligence Specialist']
     const typeSpeed = isDeleting ? 50 : 100
     const currentTitle = titles[titleIndex]
     
@@ -54,7 +54,7 @@ const Hero = () => {
             <span className="animate-pulse text-cyan-400">|</span>
           </div>
           <div className="flex flex-wrap justify-center gap-2 mb-6">
-            {['Data Analytics', 'Business Intelligence', 'SQL & Databases', 'Strategic Analysis'].map((skill, index) => (
+            {['Fraud Detection', 'Risk Management', 'Data Analytics', 'Business Intelligence'].map((skill, index) => (
               <motion.span
                 key={skill}
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -75,12 +75,12 @@ const Hero = () => {
             className="mb-8 bg-white/95 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl"
           >
             <p className="text-slate-700 mb-3 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Data analytics professional delivering value through strategic insights, business intelligence,
-              and data-driven decision making across banking and financial sectors.
+              Fraud analytics specialist with expertise in risk assessment, behavioral analysis, and fraud detection
+              systems across banking and financial sectors.
             </p>
             <p className="text-slate-700 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Currently Leading Analyst at Bank of Baku, leveraging analytical expertise and technical innovation
-              to drive measurable business outcomes and strategic initiatives.
+              Currently Fraud Analyst at Kapital Bank, leveraging data analytics and ML models
+              to detect fraud patterns, assess risks, and implement preventive measures.
             </p>
           </motion.div>
 

@@ -33,7 +33,7 @@ export function generatePageMetadata({
   datePublished,
   dateModified,
   contentType = 'WebPage',
-  section = 'Data Analytics',
+  section = 'Fraud Analytics & Risk Management',
   articleTags = [],
   isAmp = false
 }: PageSEOProps): Metadata {
@@ -49,6 +49,19 @@ export function generatePageMetadata({
   // Merge default and custom keywords
   const defaultKeywords = [
     'Ismat Samadov',
+    'Fraud Analyst',
+    'Fraud Detection',
+    'Risk Management',
+    'Fraud Risk Assessment',
+    'Banking Fraud Prevention',
+    'Fraud Investigation',
+    'Risk Analyst',
+    'Fraud Analytics',
+    'Behavioral Analysis',
+    'Pattern Recognition',
+    'Scoring Models',
+    'Anomaly Detection',
+    'Financial Crime Prevention',
     'Data Analytics',
     'Business Intelligence',
     'Data Analyst',
@@ -84,10 +97,14 @@ export function generatePageMetadata({
     'Dashboard Design',
     'Data Warehousing',
     'Market Analysis',
-    'Fraud Detection',
     'Time Series Analysis',
+    'Kapital Bank',
+    'Birbank',
+    'Bank of Baku',
+    'Azerbaijan Banking',
     'Azerbaijan Analytics',
-    'Baku Data Analyst'
+    'Baku Data Analyst',
+    'Baku Fraud Analyst'
   ];
   
   const mergedKeywords = [...new Set([...defaultKeywords, ...keywords])];
@@ -198,19 +215,19 @@ export function generatePageMetadata({
 export const defaultMetadata: Metadata = {
   title: {
     template: '%s | Ismat Samadov',
-    default: 'Ismat Samadov | Data Analytics & AI Professional',
+    default: 'Ismat Samadov | Fraud Analyst & Risk Management Specialist',
   },
-  description: 'Data analytics and AI professional with expertise in business intelligence, machine learning, and strategic insights. Delivering value through data-driven decision making, predictive analytics, and intelligent solutions for banking and financial sectors. Specialized in Python, SQL, ML/AI, and analytical reporting.',
+  description: 'Fraud analyst and risk management specialist with expertise in fraud detection, behavioral analysis, and ML-based scoring models. Delivering value through fraud risk assessment, pattern recognition, and preventive measures for banking and financial sectors. Specialized in fraud analytics, SQL, Python, ML/AI, and risk investigation.',
   metadataBase: new URL('https://ismat.pro'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'Ismat Samadov | Data Analytics & AI Professional',
+    siteName: 'Ismat Samadov | Fraud Analyst & Risk Management Specialist',
     images: [{
       url: '/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Ismat Samadov - Data Analytics & AI Professional',
+      alt: 'Ismat Samadov - Fraud Analyst & Risk Management Specialist',
     }],
   },
   twitter: {
@@ -256,7 +273,7 @@ export const defaultMetadata: Metadata = {
   archives: ['https://ismat.pro/archives'],
   assets: ['https://ismat.pro/assets'],
   bookmarks: ['https://ismat.pro/bookmarks'],
-  category: 'Data Analytics',
+  category: 'Fraud Analytics & Risk Management',
   formatDetection: {
     email: false,
     telephone: false,

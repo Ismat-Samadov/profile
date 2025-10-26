@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { FaCode, FaDatabase, FaChartBar, FaTools, FaBrain, FaRobot } from 'react-icons/fa'
+import { FaCode, FaDatabase, FaChartBar, FaTools, FaBrain, FaRobot, FaShieldAlt } from 'react-icons/fa'
 
 const skillsData = {
   dataAnalytics: {
@@ -16,9 +16,13 @@ const skillsData = {
     skills: ['TensorFlow', 'PyTorch', 'scikit-learn', 'Deep Learning', 'Model Training', 'Feature Engineering'],
     color: 'from-green-500 to-emerald-500'
   },
+  fraudRiskManagement: {
+    skills: ['Fraud Detection', 'Risk Assessment', 'Pattern Recognition', 'Behavioral Analysis', 'Scoring Models', 'Investigation'],
+    color: 'from-red-500 to-orange-500'
+  },
   aiApplications: {
-    skills: ['NLP', 'Computer Vision', 'Predictive Analytics', 'Fraud Detection', 'Time Series', 'Classification'],
-    color: 'from-orange-500 to-red-500'
+    skills: ['NLP', 'Computer Vision', 'Predictive Analytics', 'Time Series', 'Classification', 'Anomaly Detection'],
+    color: 'from-orange-500 to-amber-500'
   },
   databases: {
     skills: ['PostgreSQL', 'SQL Optimization', 'Database Design', 'Query Performance', 'Data Warehousing', 'Data Modeling'],
@@ -45,11 +49,19 @@ const Skills = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             <SkillCategory
+              title="Fraud & Risk Management"
+              icon={<FaShieldAlt />}
+              skills={skillsData.fraudRiskManagement.skills}
+              color={skillsData.fraudRiskManagement.color}
+              delay={0}
+            />
+
+            <SkillCategory
               title="Data Analytics"
               icon={<FaChartBar />}
               skills={skillsData.dataAnalytics.skills}
               color={skillsData.dataAnalytics.color}
-              delay={0}
+              delay={0.1}
             />
 
             <SkillCategory
@@ -57,7 +69,7 @@ const Skills = () => {
               icon={<FaTools />}
               skills={skillsData.businessIntelligence.skills}
               color={skillsData.businessIntelligence.color}
-              delay={0.1}
+              delay={0.2}
             />
 
             <SkillCategory
@@ -65,7 +77,7 @@ const Skills = () => {
               icon={<FaBrain />}
               skills={skillsData.machineLearning.skills}
               color={skillsData.machineLearning.color}
-              delay={0.2}
+              delay={0.3}
             />
 
             <SkillCategory
@@ -73,7 +85,7 @@ const Skills = () => {
               icon={<FaRobot />}
               skills={skillsData.aiApplications.skills}
               color={skillsData.aiApplications.color}
-              delay={0.3}
+              delay={0.4}
             />
 
             <SkillCategory
@@ -81,7 +93,7 @@ const Skills = () => {
               icon={<FaDatabase />}
               skills={skillsData.databases.skills}
               color={skillsData.databases.color}
-              delay={0.4}
+              delay={0.5}
             />
 
             <SkillCategory
@@ -89,7 +101,7 @@ const Skills = () => {
               icon={<FaCode />}
               skills={skillsData.analyticsTools.skills}
               color={skillsData.analyticsTools.color}
-              delay={0.5}
+              delay={0.6}
             />
           </div>
 

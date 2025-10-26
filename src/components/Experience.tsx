@@ -20,18 +20,21 @@ const experienceData = [
     ]
   },
   {
-    title: 'SQL Developer',
+    title: 'Fraud Analyst',
     company: 'Kapital Bank',
     period: 'Feb 2023 - Sep 2025',
     location: 'Baku, Azerbaijan',
     jobType: 'Full Time',
     workMode: 'Onsite',
     responsibilities: [
-      'Writing complex SQL queries for improving fraud detection systems',
-      'Optimizing existing scripts and database performance',
-      'Developing stored procedures and database optimization solutions',
-      'Implementing data extraction and transformation processes for financial analytics',
-      'Collaborating with teams to maintain and enhance SQL-based systems'
+      'Analyzing fraud risks across all bank campaigns, promotions, and lottery programs',
+      'Assessing fraud risks for new and existing banking products, services, and projects',
+      'Developing and refining fraud indicators, behavioral scenarios, and scoring models',
+      'Investigating fraud cases, performing root cause analysis, and implementing preventive measures',
+      'Monitoring local and international fraud trends and proposing best practice implementations',
+      'Evaluating effectiveness of existing control mechanisms and recommending improvements',
+      'Collaborating with risk management, internal audit, and compliance teams on fraud prevention',
+      'Conducting staff training on fraud risks and promoting zero-tolerance culture'
     ]
   },
   {
@@ -50,7 +53,7 @@ const experienceData = [
     ]
   },
   {
-    title: 'Verificator',
+    title: 'Credit Analyst',
     company: 'Unibank',
     period: 'Sep 2019 - Dec 2021',
     location: 'Baku, Azerbaijan',
