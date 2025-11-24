@@ -64,6 +64,7 @@ const additionalCertifications = {
     icon: '📚',
     description: 'Comprehensive Online Courses',
     certificates: [
+      { name: 'AI Engineer', file: '/certificates/udemy/udemy-ai-engineer.pdf' },
       { name: 'Algebra Fundamentals', file: '/certificates/udemy/udemy-algebra.pdf' },
       { name: 'Calculus', file: '/certificates/udemy/udemy-calculus.pdf' },
       { name: 'Data Science Complete Course', file: '/certificates/udemy/udemy-data-science.pdf' },
