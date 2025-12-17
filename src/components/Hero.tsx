@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
-import DownloadButton from './DownloadButton'
 
 const Hero = () => {
   const [typedText, setTypedText] = useState('')
@@ -82,22 +81,6 @@ const Hero = () => {
               Currently Fraud Analyst at Kapital Bank, leveraging data analytics and ML models
               to detect fraud patterns, assess risks, and implement preventive measures.
             </p>
-          </motion.div>
-
-          {/* Buttons - improved for mobile */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.8, duration: 0.6 }}
-            className="flex justify-center items-center"
-          >
-            <DownloadButton
-              filePath="/ISMAT SAMADOV.pdf"
-              label="Download CV"
-              className="w-full sm:w-auto py-3 px-6 bg-white/90 backdrop-blur-sm hover:bg-white text-slate-800 border border-white/50 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl font-medium"
-              variant="secondary"
-              documentType="cv"
-            />
           </motion.div>
         </motion.div>
       </div>
