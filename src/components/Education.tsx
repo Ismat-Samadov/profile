@@ -110,6 +110,17 @@ const additionalCertifications = {
       { name: 'SQL for Data', file: '/certificates/data-so-cool/datasocool-sql.pdf' }
     ]
   },
+  'Coursera': {
+    color: 'from-blue-600 to-indigo-600',
+    icon: '🎓',
+    description: 'AI & Machine Learning Specializations',
+    certificates: [
+      { name: 'Generative AI for Everyone', file: '/certificates/coursera/Generative AI for Everyone.pdf' },
+      { name: 'Generative AI: Business Transformation and Career Growth', file: '/certificates/coursera/Generative AI-Business Transformation and Career Growth.pdf' },
+      { name: 'Generative AI: Prompt Engineering Basics', file: '/certificates/coursera/Generative AI-Prompt Engineering Basics.pdf' },
+      { name: 'Introduction to Artificial Intelligence', file: '/certificates/coursera/Introduction to Artificial Intelligence.pdf' }
+    ]
+  },
   'Others': {
     color: 'from-gray-500 to-slate-600',
     icon: '🎯',
@@ -439,7 +450,7 @@ const AdditionalCertificationsSection = () => {
       <div className="flex items-center justify-between mb-4">
         <div>
           <h4 className="text-base md:text-lg font-bold mb-1">Additional Certifications</h4>
-          <p className="text-sm text-gray-600">{totalCertificates} certificates across 5 platforms</p>
+          <p className="text-sm text-gray-600">{totalCertificates} certificates across 6 platforms</p>
         </div>
         <button
           onClick={() => setShowAll(!showAll)}
