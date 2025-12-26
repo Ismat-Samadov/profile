@@ -110,6 +110,30 @@ const additionalCertifications = {
       { name: 'SQL for Data', file: '/certificates/data-so-cool/datasocool-sql.pdf' }
     ]
   },
+  'DataCamp': {
+    color: 'from-teal-500 to-cyan-600',
+    icon: '📈',
+    description: 'Data Science & Analytics Courses',
+    certificates: [
+      { name: 'Data Manipulation in SQL', file: '/certificates/datacamp/Data Manipulation in SQL.pdf' },
+      { name: 'Data Manipulation with pandas', file: '/certificates/datacamp/Data Manipulation with pandas.pdf' },
+      { name: 'Functions for Manipulating Data in PostgreSQL', file: '/certificates/datacamp/Functions for Manipulating Data in PostgreSQL.pdf' },
+      { name: 'Intermediate Python', file: '/certificates/datacamp/Intermediate Python.pdf' },
+      { name: 'Intermediate SQL Queries', file: '/certificates/datacamp/Intermediate SQL Queries.pdf' },
+      { name: 'Introduction to Data Science in Python', file: '/certificates/datacamp/Introduction to Data Science in Python.pdf' },
+      { name: 'Introduction to Power BI', file: '/certificates/datacamp/Introduction to Power BI.pdf' },
+      { name: 'Introduction to Python', file: '/certificates/datacamp/Introduction to Python.pdf' },
+      { name: 'Introduction to R', file: '/certificates/datacamp/Introduction to R.pdf' },
+      { name: 'Machine Learning with scikit-learn', file: '/certificates/datacamp/Machine Learning with scikit-learn.pdf' },
+      { name: 'PostgreSQL Summary Stats and Window Functions', file: '/certificates/datacamp/PostgreSQL Summary Stats and Window Functions.pdf' },
+      { name: 'SQL for Joining Data', file: '/certificates/datacamp/SQL for Joining Data.pdf' },
+      { name: 'Understanding Cloud Computing', file: '/certificates/datacamp/Understanding Cloud Computing.pdf' },
+      { name: 'Understanding Data Engineering', file: '/certificates/datacamp/Understanding Data Engineering.pdf' },
+      { name: 'Understanding Data Science', file: '/certificates/datacamp/Understanding Data Science.pdf' },
+      { name: 'Understanding Data Visualization', file: '/certificates/datacamp/Understanding Data Visualization.pdf' },
+      { name: 'Understanding Machine Learning', file: '/certificates/datacamp/Understanding Machine Learning.pdf' }
+    ]
+  },
   'Coursera': {
     color: 'from-blue-600 to-indigo-600',
     icon: '🎓',
@@ -118,7 +142,10 @@ const additionalCertifications = {
       { name: 'Generative AI for Everyone', file: '/certificates/coursera/Generative AI for Everyone.pdf' },
       { name: 'Generative AI: Business Transformation and Career Growth', file: '/certificates/coursera/Generative AI-Business Transformation and Career Growth.pdf' },
       { name: 'Generative AI: Prompt Engineering Basics', file: '/certificates/coursera/Generative AI-Prompt Engineering Basics.pdf' },
-      { name: 'Introduction to Artificial Intelligence', file: '/certificates/coursera/Introduction to Artificial Intelligence.pdf' }
+      { name: 'Introduction to Artificial Intelligence', file: '/certificates/coursera/Introduction to Artificial Intelligence.pdf' },
+      { name: 'Neural Networks and Deep Learning', file: '/certificates/coursera/Neural Networks and Deep Learning.pdf' },
+      { name: 'Structuring Machine Learning Project', file: '/certificates/coursera/Structuring Machine Learning Project.pdf' },
+      { name: 'What is Data Science', file: '/certificates/coursera/What is Data Science.pdf' }
     ]
   },
   'Others': {
@@ -450,7 +477,7 @@ const AdditionalCertificationsSection = () => {
       <div className="flex items-center justify-between mb-4">
         <div>
           <h4 className="text-base md:text-lg font-bold mb-1">Additional Certifications</h4>
-          <p className="text-sm text-gray-600">{totalCertificates} certificates across 6 platforms</p>
+          <p className="text-sm text-gray-600">{totalCertificates} certificates across 7 platforms</p>
         </div>
         <button
           onClick={() => setShowAll(!showAll)}
