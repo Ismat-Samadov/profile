@@ -139,10 +139,12 @@ const additionalCertifications = {
     icon: '🎓',
     description: 'AI & Machine Learning Specializations',
     certificates: [
+      { name: 'Data Analysis with Python', file: '/certificates/coursera/Data Analysis with Python.pdf' },
       { name: 'Generative AI for Everyone', file: '/certificates/coursera/Generative AI for Everyone.pdf' },
       { name: 'Generative AI: Business Transformation and Career Growth', file: '/certificates/coursera/Generative AI-Business Transformation and Career Growth.pdf' },
       { name: 'Generative AI: Prompt Engineering Basics', file: '/certificates/coursera/Generative AI-Prompt Engineering Basics.pdf' },
       { name: 'Introduction to Artificial Intelligence', file: '/certificates/coursera/Introduction to Artificial Intelligence.pdf' },
+      { name: 'Introduction to Business Analytics: Communicating with Data', file: '/certificates/coursera/Introduction to Business Analytics- Communicating with Data.pdf' },
       { name: 'Neural Networks and Deep Learning', file: '/certificates/coursera/Neural Networks and Deep Learning.pdf' },
       { name: 'Structuring Machine Learning Project', file: '/certificates/coursera/Structuring Machine Learning Project.pdf' },
       { name: 'What is Data Science', file: '/certificates/coursera/What is Data Science.pdf' }
