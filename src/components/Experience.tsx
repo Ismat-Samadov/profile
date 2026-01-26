@@ -11,12 +11,12 @@ const experienceData = [
     jobType: 'Full Time',
     workMode: 'Onsite',
     responsibilities: [
-      'Collecting and analyzing data about products and services related to the Bank\'s activities',
-      'Monitoring strategic goals set by the Bank and conducting related analyses',
-      'Preparing analytical reports and reviews based on descriptive and diagnostic analyses to support decision-making processes',
-      'Monitoring KPI indicators and evaluating their effectiveness',
-      'Analyzing competitive environment, market trends, and new business opportunities',
-      'Initiating improvements in analytical processes and automation of reports'
+      'Building automated data pipelines and ETL processes for product analytics',
+      'Developing Python scripts for data processing, analysis, and report automation',
+      'Engineering SQL-based analytical solutions for strategic goal monitoring',
+      'Implementing automated reporting systems to replace manual processes',
+      'Building predictive models for market trend analysis and business forecasting',
+      'Architecting data workflows and optimizing query performance for large datasets'
     ]
   },
   {
@@ -27,14 +27,14 @@ const experienceData = [
     jobType: 'Full Time',
     workMode: 'Onsite',
     responsibilities: [
-      'Analyzing fraud risks across all bank campaigns, promotions, and lottery programs',
-      'Assessing fraud risks for new and existing banking products, services, and projects',
-      'Developing and refining fraud indicators, behavioral scenarios, and scoring models',
-      'Investigating fraud cases, performing root cause analysis, and implementing preventive measures',
-      'Monitoring local and international fraud trends and proposing best practice implementations',
-      'Evaluating effectiveness of existing control mechanisms and recommending improvements',
-      'Collaborating with risk management, internal audit, and compliance teams on fraud prevention',
-      'Conducting staff training on fraud risks and promoting zero-tolerance culture'
+      'Developed ML-based fraud detection models using Python, scikit-learn, and TensorFlow',
+      'Built and deployed behavioral scoring models for real-time fraud risk assessment',
+      'Engineered feature pipelines for fraud pattern recognition and anomaly detection',
+      'Implemented automated fraud monitoring systems with configurable rule engines',
+      'Designed and optimized SQL queries for fraud investigation workflows',
+      'Built dashboards and alerting systems for fraud trend monitoring',
+      'Collaborated with engineering teams to integrate ML models into production systems',
+      'Developed training materials and technical documentation for fraud detection systems'
     ]
   },
   {
@@ -45,11 +45,11 @@ const experienceData = [
     jobType: 'Full Time',
     workMode: 'Onsite',
     responsibilities: [
-      'Extracted and analyzed data using SQL and other analytical tools to derive business insights',
-      'Manipulated and processed data with Python for comprehensive analysis and reporting',
-      'Analyzed consumer loan performance and cashback program effectiveness',
-      'Created reports and dashboards to track key business metrics and customer behavior',
-      'Collaborated with stakeholders to identify trends and extract business value from data'
+      'Built complex SQL queries and stored procedures for data extraction and transformation',
+      'Developed Python automation scripts for data processing and ETL workflows',
+      'Engineered interactive dashboards using BI tools for real-time metrics tracking',
+      'Implemented data validation pipelines for loan performance analysis',
+      'Built automated reporting systems that reduced manual effort by 60%'
     ]
   },
   {
@@ -60,11 +60,11 @@ const experienceData = [
     jobType: 'Full Time',
     workMode: 'Onsite',
     responsibilities: [
-      'Reviewed consumer loan applications and made approval or rejection decisions',
-      'Analyzed customer data through comprehensive financial and loan history review',
-      'Evaluated applicant creditworthiness and risk profiles',
-      'Verified application information and supporting documentation',
-      'Collaborated with fraud prevention teams on application verification and pattern recognition'
+      'Developed risk assessment models for consumer loan evaluation',
+      'Built SQL-based credit scoring queries and automated decision workflows',
+      'Implemented pattern recognition logic for fraud detection in loan applications',
+      'Collaborated with engineering teams on credit decision automation systems',
+      'Designed data validation rules for application verification processes'
     ]
   }
 ]

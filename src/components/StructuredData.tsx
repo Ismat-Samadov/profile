@@ -4,10 +4,10 @@ export function PersonStructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Ismat Samadov',
-    description: 'Data analytics and AI professional delivering value through business intelligence, machine learning, and strategic insights',
+    description: 'ML Engineer and Full Stack Developer building production AI systems, from fraud detection models to end-to-end web applications using Python, TensorFlow, FastAPI, and Next.js',
     url: 'https://ismat.pro',
     image: 'https://ismat.pro/images/ismat-samadov.jpg',
-    jobTitle: 'Data Analyst',
+    jobTitle: 'ML Engineer',
     worksFor: {
       '@type': 'Organization',
       name: 'Bank of Baku',
@@ -51,43 +51,40 @@ export function PersonStructuredData() {
       'https://www.linkedin.com/in/ismat-samadov/'
     ],
     knowsAbout: [
-      'Data Analytics',
-      'Business Intelligence',
       'Machine Learning',
-      'Artificial Intelligence',
-      'SQL Optimization',
-      'KPI Monitoring',
-      'Financial Analytics',
-      'Analytical Reports',
-      'Strategic Analysis',
       'Deep Learning',
-      'Computer Vision',
-      'Natural Language Processing',
-      'Predictive Analytics',
+      'Artificial Intelligence',
       'TensorFlow',
       'PyTorch',
       'scikit-learn',
-      'Data Visualization',
-      'Tableau',
-      'Power BI',
-      'Statistical Analysis',
-      'Fraud Detection',
-      'Time Series Analysis',
-      'Feature Engineering',
-      'Data Mining',
-      'Model Training',
-      'Model Deployment',
+      'Full Stack Development',
       'Python',
-      'pandas',
-      'NumPy',
+      'FastAPI',
+      'Next.js',
+      'React',
+      'TypeScript',
+      'REST APIs',
+      'Natural Language Processing',
+      'Computer Vision',
+      'LLM Integration',
+      'RAG Systems',
+      'Model Deployment',
+      'MLOps',
+      'Docker',
+      'CI/CD',
+      'Feature Engineering',
+      'Model Training',
+      'Fraud Detection',
+      'Anomaly Detection',
+      'Recommendation Systems',
       'PostgreSQL',
       'Database Design',
-      'Data Warehousing',
-      'Business Metrics',
-      'Dashboard Design',
-      'Market Analysis',
-      'Basel III',
-      'IFRS 9'
+      'ETL Pipelines',
+      'Data Engineering',
+      'pandas',
+      'NumPy',
+      'Git',
+      'Linux'
     ],
     knowsLanguage: [
       {
@@ -115,11 +112,11 @@ export function PersonStructuredData() {
     email: 'mailto:ismetsemedov@gmail.com',
     // Professional achievements
     award: [
-      '5+ years of data analytics and business intelligence expertise',
-      '50+ analytical reports delivered for strategic decision making',
       '10+ ML models developed and deployed in production',
-      'Basel III compliant risk analytics and reporting',
-      'Advanced SQL optimization and database performance tuning'
+      '4 full-stack AI applications shipped to production',
+      '5+ years building AI and data engineering solutions',
+      'End-to-end ML pipeline development and deployment',
+      'Production-grade fraud detection systems'
     ]
   };
 
@@ -206,10 +203,10 @@ export function WebsiteStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Ismat Samadov | Data Analytics & AI Professional',
+    name: 'Ismat Samadov | ML Engineer & Full Stack Developer',
     alternateName: 'Ismat Samadov Portfolio',
     url: 'https://ismat.pro',
-    description: 'Data analytics and AI professional delivering value through business intelligence, machine learning, and strategic insights. Building analytical solutions and intelligent systems for banking and financial sectors.',
+    description: 'ML Engineer and Full Stack Developer building production AI systems. Portfolio showcasing machine learning projects, full-stack applications, and end-to-end ML deployments using Python, TensorFlow, FastAPI, and Next.js.',
     inLanguage: ['en-US', 'az-AZ', 'ru-RU'],
     potentialAction: {
       '@type': 'SearchAction',
@@ -232,23 +229,23 @@ export function WebsiteStructuredData() {
     about: [
       {
         '@type': 'Thing',
-        name: 'Data Analytics',
-        description: 'Business intelligence and data-driven insights'
+        name: 'Machine Learning Engineering',
+        description: 'Building and deploying production ML systems'
       },
       {
         '@type': 'Thing',
-        name: 'Machine Learning & AI',
-        description: 'Intelligent systems and predictive analytics'
+        name: 'Full Stack Development',
+        description: 'End-to-end web applications with Python, FastAPI, Next.js, and React'
       },
       {
         '@type': 'Thing',
-        name: 'Business Intelligence',
-        description: 'Strategic insights and KPI monitoring'
+        name: 'AI Applications',
+        description: 'NLP, Computer Vision, LLM integration, and RAG systems'
       },
       {
         '@type': 'Thing',
-        name: 'Database Analytics',
-        description: 'SQL optimization and data management'
+        name: 'MLOps & Data Engineering',
+        description: 'Model deployment, CI/CD, and data pipelines'
       }
     ]
   };
@@ -268,8 +265,8 @@ export function OrganizationStructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: 'Ismat Samadov Analytics & AI Services',
-    description: 'Data Analytics, Business Intelligence, and AI/ML Solutions',
+    name: 'Ismat Samadov ML Engineering & Development',
+    description: 'Machine Learning Engineering, Full Stack Development, and AI Solutions',
     url: 'https://ismat.pro',
     founder: {
       '@type': 'Person',
@@ -281,18 +278,18 @@ export function OrganizationStructuredData() {
       name: 'Global'
     },
     serviceType: [
-      'Data Analytics',
-      'Business Intelligence',
-      'Machine Learning Solutions',
-      'AI Consulting',
-      'Predictive Analytics',
-      'KPI Monitoring',
-      'Analytical Reporting',
-      'Database Analytics',
-      'Data Visualization',
-      'Strategic Analysis',
-      'Financial Analytics',
-      'Statistical Modeling'
+      'Machine Learning Engineering',
+      'Full Stack Development',
+      'AI Application Development',
+      'Model Deployment',
+      'MLOps Solutions',
+      'API Development',
+      'Data Pipeline Engineering',
+      'NLP Solutions',
+      'Computer Vision',
+      'Fraud Detection Systems',
+      'Recommendation Systems',
+      'LLM Integration'
     ],
     priceRange: 'Consultation Available',
     address: {

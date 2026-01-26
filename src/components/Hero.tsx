@@ -10,7 +10,7 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false)
 
   useEffect(() => {
-    const titles = ['Fraud Analyst', 'Data Analyst', 'Risk Management Specialist', 'Business Intelligence Specialist']
+    const titles = ['ML Engineer', 'AI Developer', 'Full Stack Developer', 'Python Developer']
     const typeSpeed = isDeleting ? 50 : 100
     const currentTitle = titles[titleIndex]
     
@@ -53,7 +53,7 @@ const Hero = () => {
             <span className="animate-pulse text-cyan-400">|</span>
           </div>
           <div className="flex flex-wrap justify-center gap-2 mb-6">
-            {['Fraud Detection', 'Risk Management', 'Data Analytics', 'Business Intelligence'].map((skill, index) => (
+            {['Machine Learning', 'AI Engineering', 'Full Stack Development', 'Python'].map((skill, index) => (
               <motion.span
                 key={skill}
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -67,19 +67,19 @@ const Hero = () => {
           </div>
 
           {/* Description with glassmorphism */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.5, duration: 0.8 }}
             className="mb-8 bg-white/95 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl"
           >
             <p className="text-slate-700 mb-3 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Fraud analytics specialist with expertise in risk assessment, behavioral analysis, and fraud detection
-              systems across banking and financial sectors.
+              ML Engineer building production AI systems, from fraud detection models to full-stack web applications.
+              Passionate about transforming complex problems into deployed solutions.
             </p>
             <p className="text-slate-700 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Currently Fraud Analyst at Kapital Bank, leveraging data analytics and ML models
-              to detect fraud patterns, assess risks, and implement preventive measures.
+              Building ML pipelines, developing REST APIs, and shipping end-to-end applications
+              using Python, TensorFlow, FastAPI, and Next.js.
             </p>
           </motion.div>
         </motion.div>
