@@ -1,46 +1,59 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import Link from 'next/link'
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import { FaGithub, FaExternalLinkAlt, FaCode, FaDatabase, FaBriefcase, FaBullhorn, FaUserPlus } from 'react-icons/fa'
 
 const projectsData = [
   {
-    id: 'ihealth',
-    title: 'iHealth',
-    description: 'Healthcare analytics platform with ML-powered patient outcome prediction',
-    imageUrl: '/projects/ihealth.jpg',
-    github: 'https://github.com/Ismat-Samadov/ihealth',
-    url: 'https://www.ihealth.ink/',
-    tags: ['TensorFlow', 'FastAPI', 'Next.js', 'PostgreSQL']
+    id: 'codeplace',
+    title: 'CodePlace',
+    description: 'Interactive coding platform for developers to practice and improve programming skills',
+    icon: <FaCode className="text-4xl" />,
+    github: 'https://github.com/Ismat-Samadov/codeplace',
+    url: 'https://www.mwp.codes/',
+    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'REST API'],
+    gradient: 'from-violet-500 to-purple-600'
   },
   {
-    id: 'trackio',
-    title: 'Trackio',
-    description: 'AI project management with automated task prioritization algorithms',
-    imageUrl: '/projects/trackio.jpg',
-    github: 'https://github.com/Ismat-Samadov/trackio',
-    url: 'https://www.trackio.art/',
-    tags: ['Python', 'React', 'ML Models', 'REST API']
+    id: 'querybank',
+    title: 'QueryBank',
+    description: 'SQL practice platform with curated query challenges for database skill development',
+    icon: <FaDatabase className="text-4xl" />,
+    github: 'https://github.com/Ismat-Samadov/QueryBank',
+    url: 'https://query-bank.vercel.app/',
+    tags: ['React', 'Node.js', 'SQL', 'Vercel'],
+    gradient: 'from-cyan-500 to-blue-600'
   },
   {
-    id: 'jobry',
-    title: 'Jobry',
-    description: 'ML-powered job recommendation engine using NLP for skill matching',
-    imageUrl: '/projects/jobry.jpg',
-    github: 'https://github.com/Ismat-Samadov/jobry',
-    url: 'https://www.jobry.io/',
-    tags: ['NLP', 'scikit-learn', 'FastAPI', 'React']
+    id: 'birjob',
+    title: 'BirJob',
+    description: 'Job aggregation platform collecting listings from multiple sources across Azerbaijan',
+    icon: <FaBriefcase className="text-4xl" />,
+    github: 'https://github.com/Ismat-Samadov/birjob',
+    url: 'https://www.birjob.com/',
+    tags: ['Python', 'Web Scraping', 'FastAPI', 'PostgreSQL'],
+    gradient: 'from-green-500 to-emerald-600'
   },
   {
-    id: 'myfrog',
-    title: 'MyFrog',
-    description: 'AI financial forecasting system for cash flow and revenue prediction',
-    imageUrl: '/projects/myfrog.jpg',
-    github: 'https://github.com/Ismat-Samadov/myfrog',
-    url: 'https://www.myfrog.me/',
-    tags: ['Time Series', 'PyTorch', 'Next.js', 'Docker']
+    id: 'poster',
+    title: 'ReklamYeri',
+    description: 'Advertising marketplace platform connecting businesses with ad space providers',
+    icon: <FaBullhorn className="text-4xl" />,
+    github: 'https://github.com/Ismat-Samadov/poster',
+    url: 'https://www.reklamyeri.az/',
+    tags: ['Next.js', 'React', 'Node.js', 'MongoDB'],
+    gradient: 'from-orange-500 to-red-600'
+  },
+  {
+    id: 'lead-generator',
+    title: 'Lead Generator',
+    description: 'Automated lead generation tool for extracting and qualifying business contacts',
+    icon: <FaUserPlus className="text-4xl" />,
+    github: 'https://github.com/Ismat-Samadov/lead_generator',
+    url: 'https://lead-generator-theta.vercel.app/',
+    tags: ['Python', 'Automation', 'Data Extraction', 'Vercel'],
+    gradient: 'from-pink-500 to-rose-600'
   }
 ]
 
@@ -53,14 +66,14 @@ const FeaturedProjects = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="max-w-5xl mx-auto"
+          className="max-w-6xl mx-auto"
         >
           <h2 className="text-2xl sm:text-3xl font-bold text-white text-center mb-4">Production Applications</h2>
           <p className="text-gray-300 text-center max-w-2xl mx-auto mb-10">
-            Full-stack ML applications built and deployed to production
+            Full-stack applications built and deployed to production
           </p>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {projectsData.map((project, index) => (
               <motion.div
                 key={project.id}
@@ -68,24 +81,16 @@ const FeaturedProjects = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                whileHover={{ scale: 1.02, y: -5 }}
+                whileHover={{ scale: 1.03, y: -5 }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden border border-white/20 group"
               >
-                <div className="relative h-40 w-full overflow-hidden">
-                  <Image
-                    src={project.imageUrl}
-                    alt={project.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    style={{ objectFit: 'cover' }}
-                    className="group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className={`h-32 w-full bg-gradient-to-br ${project.gradient} flex items-center justify-center text-white/90 group-hover:text-white transition-colors`}>
+                  {project.icon}
                 </div>
 
                 <div className="p-5">
                   <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-                  <p className="text-gray-300 text-sm mb-4">{project.description}</p>
+                  <p className="text-gray-300 text-sm mb-4 line-clamp-2">{project.description}</p>
 
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map((tag) => (
@@ -103,7 +108,7 @@ const FeaturedProjects = () => {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 bg-white/20 text-white py-2 px-4 rounded-lg hover:bg-white/30 transition-colors text-sm"
+                      className="inline-flex items-center gap-2 bg-white/20 text-white py-2 px-3 rounded-lg hover:bg-white/30 transition-colors text-sm"
                     >
                       <FaGithub /> Code
                     </a>
@@ -111,9 +116,9 @@ const FeaturedProjects = () => {
                       href={project.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-2 px-4 rounded-lg hover:from-cyan-600 hover:to-blue-600 transition-colors text-sm"
+                      className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white py-2 px-3 rounded-lg hover:from-cyan-600 hover:to-blue-600 transition-colors text-sm"
                     >
-                      <FaExternalLinkAlt /> Live Demo
+                      <FaExternalLinkAlt /> Live
                     </a>
                   </div>
                 </div>
@@ -123,10 +128,12 @@ const FeaturedProjects = () => {
 
           <div className="text-center mt-10">
             <Link
-              href="/projects"
+              href="https://github.com/Ismat-Samadov"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white/10 text-white py-3 px-6 rounded-lg hover:bg-white/20 transition-colors border border-white/30"
             >
-              View All Projects
+              <FaGithub /> View All Projects on GitHub
             </Link>
           </div>
         </motion.div>

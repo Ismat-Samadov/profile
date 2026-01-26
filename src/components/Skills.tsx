@@ -125,7 +125,7 @@ const Skills = () => {
               whileHover={{ scale: 1.05, y: -5 }}
               className="bg-gradient-to-br from-purple-500 to-violet-600 p-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <div className="text-3xl font-bold text-white mb-2">4</div>
+              <div className="text-3xl font-bold text-white mb-2">5+</div>
               <div className="text-sm text-purple-100">Full Stack Apps Deployed</div>
             </motion.div>
 

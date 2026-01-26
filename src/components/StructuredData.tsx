@@ -113,7 +113,7 @@ export function PersonStructuredData() {
     // Professional achievements
     award: [
       '10+ ML models developed and deployed in production',
-      '4 full-stack AI applications shipped to production',
+      '5+ full-stack applications shipped to production',
       '5+ years building AI and data engineering solutions',
       'End-to-end ML pipeline development and deployment',
       'Production-grade fraud detection systems'

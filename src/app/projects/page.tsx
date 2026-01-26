@@ -7,47 +7,56 @@ import Link from 'next/link'
 // Generate page metadata
 export const metadata: Metadata = generatePageMetadata({
   title: 'Projects Portfolio',
-  description: 'Portfolio of machine learning, AI, and data analysis projects by Ismat Samadov, showcasing work in predictive modeling, fraud detection, and business intelligence.',
+  description: 'Portfolio of full-stack applications and AI projects by Ismat Samadov. Showcasing production-deployed web applications, automation tools, and data platforms built with Next.js, Python, FastAPI, and React.',
   path: '/projects',
 });
 
 // Define the project data
 const projectsData = [
   {
-    id: 'ihealth',
-    title: 'iHealth - Healthcare Analytics Platform',
-    description: 'Healthcare analytics platform with ML-powered patient outcome prediction and personalized health recommendations',
-    imageUrl: '/projects/ihealth.jpg',
-    github: 'https://github.com/Ismat-Samadov/ihealth',
-    url: 'https://www.ihealth.ink/',
-    tags: ['ML Applications', 'Healthcare', 'Predictive Analytics']
+    id: 'codeplace',
+    title: 'CodePlace - Interactive Coding Platform',
+    description: 'Interactive coding platform for developers to practice and improve programming skills with real-time feedback and challenges',
+    imageUrl: '/projects/codeplace.jpg',
+    github: 'https://github.com/Ismat-Samadov/codeplace',
+    url: 'https://www.mwp.codes/',
+    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Full Stack']
   },
   {
-    id: 'trackio',
-    title: 'Trackio - AI Project Management',
-    description: 'AI-enhanced project management tool with automated task prioritization and resource optimization algorithms',
-    imageUrl: '/projects/trackio.jpg',
-    github: 'https://github.com/Ismat-Samadov/trackio',
-    url: 'https://www.trackio.art/',
-    tags: ['Machine Learning', 'Process Optimization', 'AI Solutions']
+    id: 'querybank',
+    title: 'QueryBank - SQL Practice Platform',
+    description: 'SQL practice platform with curated query challenges and exercises for database skill development and interview preparation',
+    imageUrl: '/projects/querybank.jpg',
+    github: 'https://github.com/Ismat-Samadov/QueryBank',
+    url: 'https://query-bank.vercel.app/',
+    tags: ['React', 'Node.js', 'SQL', 'Education']
   },
   {
-    id: 'jobry',
-    title: 'Jobry - AI Job Recommendation Engine',
-    description: 'Smart job recommendation system leveraging machine learning to match job seekers with relevant opportunities based on skills and preferences',
-    imageUrl: '/projects/jobry.jpg',
-    github: 'https://github.com/Ismat-Samadov/jobry',
-    url: 'https://www.jobry.io/',
-    tags: ['NLP', 'Recommendation Systems', 'Career Analytics']
+    id: 'birjob',
+    title: 'BirJob - Job Aggregator Platform',
+    description: 'Comprehensive job aggregation platform that collects and displays listings from multiple sources across Azerbaijan job market',
+    imageUrl: '/projects/birjob.jpg',
+    github: 'https://github.com/Ismat-Samadov/birjob',
+    url: 'https://www.birjob.com/',
+    tags: ['Python', 'Web Scraping', 'FastAPI', 'Data Pipeline']
   },
   {
-    id: 'myfrog',
-    title: 'MyFrog - Financial Forecasting Tool',
-    description: 'AI-driven financial forecasting system for small businesses, providing predictive analytics for cash flow and revenue planning',
-    imageUrl: '/projects/myfrog.jpg',
-    github: 'https://github.com/Ismat-Samadov/myfrog',
-    url: 'https://www.myfrog.me/',
-    tags: ['Financial Modeling', 'Predictive Analytics', 'AI Applications']
+    id: 'poster',
+    title: 'ReklamYeri - Advertising Marketplace',
+    description: 'Advertising marketplace platform connecting businesses with ad space providers for outdoor and digital advertising in Azerbaijan',
+    imageUrl: '/projects/poster.jpg',
+    github: 'https://github.com/Ismat-Samadov/poster',
+    url: 'https://www.reklamyeri.az/',
+    tags: ['Next.js', 'React', 'Node.js', 'Marketplace']
+  },
+  {
+    id: 'lead-generator',
+    title: 'Lead Generator - Business Contact Tool',
+    description: 'Automated lead generation tool for extracting and qualifying business contacts from various online sources',
+    imageUrl: '/projects/leadgen.jpg',
+    github: 'https://github.com/Ismat-Samadov/lead_generator',
+    url: 'https://lead-generator-theta.vercel.app/',
+    tags: ['Python', 'Automation', 'Data Extraction', 'Vercel']
   }
 ];
 
@@ -58,8 +67,8 @@ export default function ProjectsPage() {
         <div className="max-w-5xl mx-auto">
           <h1 className="text-4xl font-bold mb-6 text-primary text-center">Projects Portfolio</h1>
           <p className="text-gray-600 text-center max-w-3xl mx-auto mb-16">
-            A showcase of my machine learning projects, covering healthcare analytics, process optimization,
-            financial forecasting, and intelligent recommendation systems.
+            A showcase of my full-stack applications, covering job platforms, coding tools,
+            advertising marketplaces, and automation systems - all deployed to production.
           </p>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -118,11 +127,11 @@ export default function ProjectsPage() {
           <div className="mt-16 bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg text-center">
             <h2 className="text-2xl font-bold mb-4">Interested in Collaboration?</h2>
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-              I&apos;m always open to discussing new projects, creative ideas, or opportunities to apply 
-              machine learning to solve complex problems.
+              I&apos;m always open to discussing new projects, building full-stack applications, or opportunities
+              to create impactful software solutions.
             </p>
             <Link
-              href="/contact"
+              href="/#contact"
               className="inline-flex items-center bg-primary text-white py-3 px-6 rounded-md hover:bg-blue-600 transition-colors"
             >
               Get in Touch

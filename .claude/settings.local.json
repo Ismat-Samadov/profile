@@ -3,7 +3,12 @@
     "allow": [
       "Bash(npx tsc:*)",
       "Bash(npx next build:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "WebFetch(domain:www.mwp.codes)",
+      "WebFetch(domain:query-bank.vercel.app)",
+      "WebFetch(domain:www.birjob.com)",
+      "WebFetch(domain:www.reklamyeri.az)",
+      "Bash(gh repo view:*)"
     ]
   }
 }
