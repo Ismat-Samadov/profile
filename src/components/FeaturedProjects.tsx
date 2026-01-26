@@ -18,11 +18,11 @@ const projectsData = [
   {
     id: 'querybank',
     title: 'QueryBank',
-    description: 'SQL practice platform with curated query challenges for database skill development',
+    description: 'AI chatbot that answers questions about banking databases using intelligent SQL generation and auto data visualization',
     icon: <FaDatabase className="text-4xl" />,
     github: 'https://github.com/Ismat-Samadov/QueryBank',
     url: 'https://query-bank.vercel.app/',
-    tags: ['React', 'Node.js', 'SQL', 'Vercel'],
+    tags: ['AI/LLM', 'SQL Generation', 'Python', 'Data Viz'],
     gradient: 'from-cyan-500 to-blue-600'
   },
   {

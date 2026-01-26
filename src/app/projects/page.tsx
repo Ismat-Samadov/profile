@@ -24,12 +24,12 @@ const projectsData = [
   },
   {
     id: 'querybank',
-    title: 'QueryBank - SQL Practice Platform',
-    description: 'SQL practice platform with curated query challenges and exercises for database skill development and interview preparation',
+    title: 'QueryBank - AI Database Chatbot',
+    description: 'An intelligent chatbot that answers questions about your banking database using AI-powered SQL query generation and automatic data visualization',
     imageUrl: '/projects/querybank.jpg',
     github: 'https://github.com/Ismat-Samadov/QueryBank',
     url: 'https://query-bank.vercel.app/',
-    tags: ['React', 'Node.js', 'SQL', 'Education']
+    tags: ['AI/LLM', 'SQL Generation', 'Python', 'Data Visualization']
   },
   {
     id: 'birjob',
