@@ -8,7 +8,8 @@
       "WebFetch(domain:query-bank.vercel.app)",
       "WebFetch(domain:www.birjob.com)",
       "WebFetch(domain:www.reklamyeri.az)",
-      "Bash(gh repo view:*)"
+      "Bash(gh repo view:*)",
+      "Bash(git -C \"C:\\\\Users\\\\iasamadov\\\\Desktop\\\\profile\" log --oneline -15)"
     ]
   }
 }
